@@ -1,0 +1,206 @@
+{
+	"settings": {
+		"textColor": "white",
+		"backgroundColor": "#0D1117",
+		"padding": "50"
+	},
+	"info": {
+		"name": "Dheeraj Sahani",
+		"jobTitle": "Software Engineer",
+		"about": "",
+		"images": [
+			{
+				"background_image": "placeholder.png",
+				"background_position": "center"
+			}
+		]
+	},
+	"skills": [
+		{
+			"header": {
+				"name": "server side",
+				"color": "rgb(255, 193, 7, 0.5)",
+				"percent": "90"
+			},
+			"skills": [
+				{ "name": "PHP Fundamental", "degree": "senior" },
+				{ "name": "PHP Fundamental", "degree": "junior" },
+				{ "name": "PHP Fundamental", "degree": "senior" }
+			]
+		},
+		{
+			"header": {
+				"name": "client side",
+				"color": "rgb(255, 193, 7, 0.5)",
+				"percent": "50"
+			},
+			"skills": [
+				{ "name": "PHP Fundamental", "degree": "senior" },
+				{ "name": "PHP Fundamental", "degree": "junior" },
+				{ "name": "PHP Fundamental", "degree": "senior" }
+			]
+		},
+		{
+			"header": {
+				"name": "Others",
+				"color": "rgb(255, 193, 7, 0.5)",
+				"percent": "70"
+			},
+			"skills": [
+				{ "name": "PHP Fundamental", "degree": "junior" },
+				{ "name": "PHP Fundamental", "degree": "senior" },
+				{ "name": "PHP Fundamental", "degree": "intermediate" }
+			]
+		}
+	],
+	"experiences": [
+		{
+			"logo": "../../assets/exp1.png",
+			"title": "Team Leader - Nearlybiz",
+			"time": "Jun 2021 - Present",
+			"location": "Seawoods , Navi Mumbai",
+			"description": "Team leader",
+			"status": "online",
+			"images": [
+			{
+					"link": "placeholder.png",
+					"title": "Novaday Company"
+			}
+			],
+			"details": {
+				"members": "+ 10",
+				"type": "Co-Founder, Member of the board",
+				"period": "Newly founded",
+				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
+				"partners": [
+					{
+						"name": "Mahdad Ghasemian",
+						"jobTitle": "IoT Engineer",
+						"picture": "placeholder.png"
+					}
+				],
+				"achievements": ""
+			}
+		},
+		{
+			"logo": "../../assets/exp1.png",
+			"title": "Team Leader - Nearlybiz",
+			"time": "Jun 2021 - Present",
+			"location": "Seawoods , Navi Mumbai",
+			"description": "Team leader",
+			"status": "online",
+			"images": [
+			{
+					"link": "placeholder.png",
+					"title": "Novaday Company"
+			}
+			],
+			"details": {
+				"members": "+ 10",
+				"type": "Co-Founder, Member of the board",
+				"period": "Newly founded",
+				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
+				"partners": [
+					{
+						"name": "Mahdad Ghasemian",
+						"jobTitle": "IoT Engineer",
+						"picture": "placeholder.png"
+					}
+				],
+				"achievements": ""
+			}
+		}
+	],
+	"projects": [
+		{
+			"logo": "placeholder.png",
+			"title": "Founder - Darchin",
+			"time": "Apr 2018 - Sep 2019",
+			"location": "Iran , Shahrood",
+			"description": "Darchin was an API based online food ordering system that developed with Laravel and Vuejs . In addition to managing the team , i was Back-End developer ( Laravel ) and Schema Designer . I developed API based system with a complete document for other developers .",
+			"status": "away",
+			"images": [
+				{
+					"link": "placeholder.png",
+					"title": "Opening conference"
+				}
+			],
+			"details": {
+				"members": "8",
+				"type": "Self Employed - Full Time",
+				"period": "18 month",
+				"tecs": ["PHP", "Laravel", "Vue.js"],
+				"partners": [
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "Co-Founder - Android Developer",
+						"picture": "placeholder.png"
+					}
+				],
+				"achievements": "Improvement in Laravel, Team Management, Business Modeling, Startup challenges"
+			}
+		}
+	],
+	"memories": [
+		{
+			"title": "Bike Riding",
+			"description": "Little company in Iran - Shahrood",
+			"images": [
+				{
+					"link": "placeholder.png",
+					"title": "Parsua"
+				}
+			]
+		},
+		{
+			"title": "Online Gaming",
+			"description": "Little company in Iran - Shahrood",
+			"images": [
+				{
+					"link": "placeholder.png",
+					"title": "Parsua"
+				}
+			]
+		},
+		{
+			"title": "Maintaing Vehicle",
+			"description": "Little company in Iran - Shahrood",
+			"images": [
+				{
+					"link": "placeholder.png",
+					"title": "Parsua"
+				}
+			]
+		},
+		{
+			"title": "Trip to Nature",
+			"description": "Little company in Iran - Shahrood",
+			"images": [
+				{
+					"link": "placeholder.png",
+					"title": "Parsua"
+				}
+			]
+		}
+	],
+	"educations": [
+		{
+			"logo": "placeholder.png",
+			"title": "Vidyalankar Wadala",
+			"time": "2019 - 2021",
+			"description": "Diploma - Information technology"
+		},
+		{
+			"logo": "placeholder.png",
+			"title": "LTCE College Of Engineering",
+			"time": "2021 - 2024",
+			"description": "Degree - Software Engineering"
+		}
+	],
+	"contact": {
+		"mobile": "+91 7304861722",
+		"email": "dheeraj.sahani@proton.com",
+		"github": "dlnicoz",
+		"linkedin": "in/dheerajsahani"
+	}
+}
