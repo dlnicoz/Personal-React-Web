@@ -59,7 +59,7 @@ const ExperienceItem = (props) => {
 						style={{ borderRadius: '5px', width: '100%' }}
 					></img>
 				</div>
-					<div className='col-1g-11 col-sm-12' style={{ width: '100%' }}>
+					<div className='col-1g-11 col-sm-11' style={{ width: '100%' }}>
 						<h5 style={{ fontFamily: 'farid' }}>{experience.title}</h5>
 					</div>
 				
