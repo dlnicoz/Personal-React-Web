@@ -9,7 +9,7 @@ const EducationItem = (props) => {
 		<div className='row' style={{ padding: '0px', margin: '0px' }}>
 			<div className='col-lg-1 d-none d-lg-block'>
 				<img
-					src={`${college}`}
+					src={education.logo}
 					className='img-fluid company-logo'
 					alt=''
 				></img>

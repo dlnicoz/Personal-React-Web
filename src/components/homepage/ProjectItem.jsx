@@ -53,7 +53,7 @@ const ProjectItem = (props) => {
 			>
 				<div className='col-lg-1 d-none d-lg-block'>
 					<img
-						src={`${plogo}`}
+						src={projects.logo}
 						className='img-fluid company-logo'
 						alt={projects.title}
 						style={{ borderRadius: '5px', width: '100%' }}

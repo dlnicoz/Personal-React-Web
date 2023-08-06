@@ -19,7 +19,7 @@
 		{
 			"header": {
 				"name": "server side",
-				"color": "rgb(255, 193, 7, 0.5)",
+				"color": "rgb(253, 16, 86)",
 				"percent": "90"
 			},
 			"skills": [
@@ -31,7 +31,7 @@
 		{
 			"header": {
 				"name": "client side",
-				"color": "rgb(255, 193, 7, 0.5)",
+				"color": "rgb(8 253 216)",
 				"percent": "50"
 			},
 			"skills": [
@@ -43,7 +43,7 @@
 		{
 			"header": {
 				"name": "Others",
-				"color": "rgb(255, 193, 7, 0.5)",
+				"color": "rgb(253, 16, 86)",
 				"percent": "70"
 			},
 			"skills": [
@@ -55,7 +55,7 @@
 	],
 	"experiences": [
 		{
-			"logo": "../../assets/exp1.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/exp11.png",
 			"title": "Team Leader - Nearlybiz",
 			"time": "Jun 2021 - Present",
 			"location": "Seawoods , Navi Mumbai",
@@ -83,7 +83,7 @@
 			}
 		},
 		{
-			"logo": "../../assets/exp1.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/exp12.png",
 			"title": "Team Leader - Nearlybiz",
 			"time": "Jun 2021 - Present",
 			"location": "Seawoods , Navi Mumbai",
@@ -113,7 +113,7 @@
 	],
 	"projects": [
 		{
-			"logo": "placeholder.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/pr11.png",
 			"title": "Founder - Darchin",
 			"time": "Apr 2018 - Sep 2019",
 			"location": "Iran , Shahrood",
@@ -185,13 +185,13 @@
 	],
 	"educations": [
 		{
-			"logo": "placeholder.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/diploma.svg",
 			"title": "Vidyalankar Wadala",
 			"time": "2019 - 2021",
 			"description": "Diploma - Information technology"
 		},
 		{
-			"logo": "placeholder.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/college.svg",
 			"title": "LTCE College Of Engineering",
 			"time": "2021 - 2024",
 			"description": "Degree - Software Engineering"

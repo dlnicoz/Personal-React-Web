@@ -53,7 +53,7 @@ const ExperienceItem = (props) => {
 			>
 			<div className='col-lg-1 d-none d-lg-block'>
 					<img
-						src={`${logo}`}
+						src={experience.logo}
 						className='img-fluid company-logo'
 						alt={experience.title}
 						style={{ borderRadius: '5px', width: '100%' }}
