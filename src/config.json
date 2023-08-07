@@ -83,7 +83,35 @@
 			}
 		},
 		{
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/exp12.svg",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/877f31218c6323f88cd37d7fb4881bf63e56a369/src/assets/exp12.svg",
+			"title": "Team Leader - Nearlybiz",
+			"time": "Jun 2021 - Present",
+			"location": "Seawoods , Navi Mumbai",
+			"description": "Team leader",
+			"status": "online",
+			"images": [
+			{
+					"link": "placeholder.png",
+					"title": "Novaday Company"
+			}
+			],
+			"details": {
+				"members": "+ 10",
+				"type": "Co-Founder, Member of the board",
+				"period": "Newly founded",
+				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
+				"partners": [
+					{
+						"name": "Mahdad Ghasemian",
+						"jobTitle": "IoT Engineer",
+						"picture": "placeholder.png"
+					}
+				],
+				"achievements": ""
+			}
+		},
+		{
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/exp13.png",
 			"title": "Team Leader - Nearlybiz",
 			"time": "Jun 2021 - Present",
 			"location": "Seawoods , Navi Mumbai",
@@ -113,7 +141,7 @@
 	],
 	"projects": [
 		{
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/pr11.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.png",
 			"title": "Founder - Darchin",
 			"time": "Apr 2018 - Sep 2019",
 			"location": "Iran , Shahrood",
@@ -185,13 +213,13 @@
 	],
 	"educations": [
 		{
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/diploma.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/diploma.png",
 			"title": "Vidyalankar Wadala",
 			"time": "2019 - 2021",
 			"description": "Diploma - Information technology"
 		},
 		{
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/college.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/college.png",
 			"title": "LTCE College Of Engineering",
 			"time": "2021 - 2024",
 			"description": "Degree - Software Engineering"
