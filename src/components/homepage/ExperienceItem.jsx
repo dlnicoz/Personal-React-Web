@@ -7,7 +7,7 @@ import {
 	faImages,
 } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/exp1.png'
+
 
 function renderSwitch(status) {
 	switch (status) {
