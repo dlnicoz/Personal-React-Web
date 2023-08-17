@@ -93,7 +93,7 @@ a:hover{
 
 .logoRImg {
 
-	max-width: 7%;
+	max-width: 6%;
 	height: auto;
 
 }
@@ -113,81 +113,22 @@ a:hover{
 
 /* iori */
 .badge-light {
+	letter-spacing: 0.1rem;
 	color: #212529;
 	background-color: #f8f9fa;
 }
 
 .badge-warning {
 	color: #212529;
+	letter-spacing: 0.1rem;
 	background-color: #ffc107;
 }
 
 .badge-dark {
+	letter-spacing: 0.1rem;
 	color: #fff;
 	background-color: #343a40;
 }
-
-/* @media (min-width: 576px){
- /* this is for exp img align  */
-/* .col-sm-12 {
-	  flex: 0 0 91.66667%;
-	  max-width: 91.66667%;
-	} */
-/* this is for mobile view date set for  */
-/* .offset-sm-1 {
-		margin-left: 0;
-	} */
-/* } */
-
-
-/* this is for overflow scroll */
-/* .col-lg-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-} */
-
-
-
-
-
-/* .col-lg-1 {
-	flex: 0 0 8.33333333%;
-	max-width: 8.33333333%;
-  }
-  .col-lg-11 {
-	flex: 0 0 91.666666667%;
-	max-width: 91.66666667%;
-  }
-  .col-sm-12 {
-  flex: 0 0 91.666667%;
-  max-width: 91.666667%;
-}
-
-@media (min-width: 992px){
-.col-lg-8 {
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%;
-}
-} */
-
-/* @media (min-width: 576px){
-.col-sm-12 {    
-    flex: 0 0 91.66667%;
-    max-width: 91.66667%;
-}
-} */
-
-/* this is for date align */
-/* @media (min-width: 576px){
-.offset-sm-1 {
-    margin-left: 0;
-}
-} */
-
-
-
-
 
 .progress {
 	height: 1px;
