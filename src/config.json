@@ -1,4 +1,4 @@
-{
+{   "id":1,
 	"settings": {
 		"textColor": "white",
 		"backgroundColor": "#0D1117",
@@ -17,6 +17,7 @@
 	},
 	"skills": [
 		{
+			"id":1,
 			"header": {
 				"name": "server side",
 				"color": "rgb(253, 16, 86)",
@@ -29,6 +30,7 @@
 			]
 		},
 		{
+			"id":2,
 			"header": {
 				"name": "client side",
 				"color": "rgb(8 253 216)",
@@ -41,6 +43,7 @@
 			]
 		},
 		{
+			"id":3,
 			"header": {
 				"name": "Others",
 				"color": "rgb(253, 16, 86)",
@@ -55,6 +58,7 @@
 	],
 	"experiences": [
 		{
+			"id":1,
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/exp11.png",
 			"title": "Team Leader - Nearlybiz",
 			"time": "Jun 2021 - Present",
@@ -83,6 +87,7 @@
 			}
 		},
 		{
+			"id":2,
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/877f31218c6323f88cd37d7fb4881bf63e56a369/src/assets/exp12.svg",
 			"title": "Team Leader - Nearlybiz",
 			"time": "Jun 2021 - Present",
@@ -111,6 +116,7 @@
 			}
 		},
 		{
+			"id":3,
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/exp13.png",
 			"title": "Team Leader - Nearlybiz",
 			"time": "Jun 2021 - Present",
@@ -141,6 +147,7 @@
 	],
 	"projects": [
 		{
+			"id":1,
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.png",
 			"title": "Founder - Darchin",
 			"time": "Apr 2018 - Sep 2019",
@@ -171,54 +178,33 @@
 	],
 	"memories": [
 		{
-			"title": "Bike Riding",
-			"description": "Little company in Iran - Shahrood",
-			"images": [
-				{
-					"link": "placeholder.png",
-					"title": "Parsua"
-				}
-			]
+			"id":1,
+			"title": "Bike Riding"
 		},
 		{
-			"title": "Online Gaming",
-			"description": "Little company in Iran - Shahrood",
-			"images": [
-				{
-					"link": "placeholder.png",
-					"title": "Parsua"
-				}
-			]
+			"id":2,
+			"title": "Online Gaming"
 		},
 		{
-			"title": "Maintaing Vehicle",
-			"description": "Little company in Iran - Shahrood",
-			"images": [
-				{
-					"link": "placeholder.png",
-					"title": "Parsua"
-				}
-			]
+			"id":3,
+			"title": "Maintaining Vehicle"
+			
 		},
 		{
-			"title": "Trip to Nature",
-			"description": "Little company in Iran - Shahrood",
-			"images": [
-				{
-					"link": "placeholder.png",
-					"title": "Parsua"
-				}
-			]
+			"id":4,
+			"title": "Trip to Nature"
 		}
 	],
 	"educations": [
 		{
+			"id":1,
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/diploma.png",
 			"title": "Vidyalankar Wadala",
 			"time": "2019 - 2021",
 			"description": "Diploma - Information technology"
 		},
 		{
+			"id":2,
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/college.png",
 			"title": "LTCE College Of Engineering",
 			"time": "2021 - 2024",
