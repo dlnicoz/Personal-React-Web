@@ -9,6 +9,8 @@ import Experiences from './Experiences';
 import Projects from './Projects';
 import Educations from './Educations';
 import Memories from './Memories';
+import DownPdf from './DownPdf';
+
 
 const Info = (props) => {
 	const {
@@ -49,6 +51,10 @@ const Info = (props) => {
 					<Skills skills={skills} />
 					<Divider size='medium' />
 					<Educations educations={educations} />
+					<Divider size='medium' />
+					<Divider size='medium' />
+					<DownPdf  />
+
 				</div>
 			</div>
 		</Container>

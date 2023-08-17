@@ -21,7 +21,7 @@ const SkillItem = (props) => {
 			<div className='skillName'>{skill.name}</div>
 			<span
 				className={`badge badge-${badgeClass}`}
-				style={{ float: 'right', fontFamily: 'farid' }}
+				style={{ float: 'right', fontFamily: 'iori' }}
 			>
 				{skill.degree.toUpperCase()}
 			</span>

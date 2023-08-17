@@ -31,7 +31,7 @@ const Intro = props => {
 						<h1>{info.jobTitle}</h1>
 					</div>
 					<div>
-						<div className='description' style={{ fontFamily: 'farid' , marginTop : '20px' }}>
+						<div className='description' style={{ fontFamily: 'iori' , marginTop : '20px' }}>
 						{contact.mobile}
 						<br></br>
 						{contact.email}

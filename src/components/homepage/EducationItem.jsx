@@ -15,10 +15,10 @@ const EducationItem = (props) => {
 				></img>
 			</div>
 			<div className='col-lg-8 col-sm-12'>
-				<h5 style={{ fontFamily: 'farid' }}>{education.title}</h5>
+				<h5 style={{ fontFamily: 'iori' }}>{education.title}</h5>
 			</div>
 			<div className='col-lg-3 '>
-				<h6 style={{ fontFamily: 'farid' }} className='showTime'>
+				<h6 style={{ fontFamily: 'iori' }} className='showTime'>
 					{education.time}
 				</h6>
 			</div>

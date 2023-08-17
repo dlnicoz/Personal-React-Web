@@ -43,7 +43,7 @@ const ProjectItem = (props) => {
 
 	return (
 		<Link
-			to={import.meta.env.VITE_KEY_KEY + '/projects/' + projects.title}
+			to={'/'}
 			className='link'
 		>
 			<div
@@ -60,10 +60,10 @@ const ProjectItem = (props) => {
 					></img>
 				</div>
 				<div className='col-lg-11 col-sm-12' style={{ width: '100%' }}>
-					<h5 style={{ fontFamily: 'farid' }}>{projects.title}</h5>
+					<h5 style={{ fontFamily: 'iori' }}>{projects.title}</h5>
 				</div>
 				<div className='col-sm-11 offset-sm-1'>
-					<h6 style={{ fontFamily: 'farid' }} className='showTime'>
+					<h6 style={{ fontFamily: 'iori' }} className='showTime'>
 						<span className='d-none d-lg-inline'>{projects.location} / </span>
 						{projects.time}{' '}
 						<span className='d-none d-lg-inline'>

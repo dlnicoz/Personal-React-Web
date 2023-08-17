@@ -20,7 +20,7 @@ const Memories = (props) => {
 							<span
 								className='badge badge-light'
 								style={{
-									fontFamily: 'farid',
+									fontFamily: 'iori',
 									marginRight: '7px',
 									marginBottom: '7px',
 									letterSpacing:'0.1rem',
