@@ -11,7 +11,7 @@ const Education = (props) => {
 			<div className='title'>Educations</div>
 			<div className='description' style={{ paddingTop: '30px' }}>
 				{educations.map((education) => (
-					<Fragment>
+					<Fragment key={education.id}>
 						<Divider size='large' />
 						<EducationItem education={education} />
 					</Fragment>

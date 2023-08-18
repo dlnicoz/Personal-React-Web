@@ -12,7 +12,7 @@ const Projects = (props) => {
 			</div>
 			<Divider size='medium'></Divider>
 			{projects.map((projects) => (
-				<Fragment>
+				<Fragment key={projects.id}>
 					<ProjectItem projects={projects}></ProjectItem>
 					<Divider size='medium'></Divider>
 				</Fragment>

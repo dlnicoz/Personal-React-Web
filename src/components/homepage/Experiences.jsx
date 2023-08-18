@@ -12,7 +12,7 @@ const Experience = (props) => {
 			</div>
 			<Divider size='medium'></Divider>
 			{experiences.map((experience) => (
-				<Fragment>
+				<Fragment key={experience.id}>
 					<ExperienceItem experience={experience}></ExperienceItem>
 					<Divider size='medium'></Divider>
 				</Fragment>

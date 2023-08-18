@@ -14,6 +14,7 @@ const Memories = (props) => {
 				>
 					{memories.map((memory) => (
 						<Link
+						key={memory.id}
 							to={import.meta.env.VITE_KEY_KEY + '/memory/' + memory.title}
 							className='link'
 						>
