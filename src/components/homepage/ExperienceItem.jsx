@@ -67,9 +67,7 @@ const ExperienceItem = (props) => {
 					<h6 style={{ fontFamily: 'iori' }} className='showTime'>
 						<span className='d-none d-lg-inline'>{experience.location} / </span>
 						{experience.time}{' '}
-						<span className='d-none d-lg-inline'>
-							, {experience.details.type}
-						</span>
+						
 					</h6>
 				</div>
 				<div
@@ -81,11 +79,7 @@ const ExperienceItem = (props) => {
 					}}
 				>
 					{renderSwitch(experience.status)}{' '}
-					{experience.images !== undefined ? (
-						<Fragment>
-							<FontAwesomeIcon icon={faImages} /> {experience.images.length}{' '}
-						</Fragment>
-					) : null}
+					
 				</div>
 			</div>
 		</Link>

@@ -7,13 +7,8 @@
 	"info": {
 		"name": "Dheeraj Sahani",
 		"jobTitle": "Software Engineer",
-		"about": "",
-		"images": [
-			{
-				"background_image": "placeholder.png",
-				"background_position": "center"
-			}
-		]
+		"about": ""
+		
 	},
 	"skills": [
 		{
@@ -64,27 +59,7 @@
 			"time": "Jun 2021 - Present",
 			"location": "Seawoods , Navi Mumbai",
 			"description": "Team leader",
-			"status": "online",
-			"images": [
-			{
-					"link": "placeholder.png",
-					"title": "Novaday Company"
-			}
-			],
-			"details": {
-				"members": "+ 10",
-				"type": "Co-Founder, Member of the board",
-				"period": "Newly founded",
-				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
-				"partners": [
-					{
-						"name": "Mahdad Ghasemian",
-						"jobTitle": "IoT Engineer",
-						"picture": "placeholder.png"
-					}
-				],
-				"achievements": ""
-			}
+			"status": "online"
 		},
 		{
 			"id":2,
@@ -93,27 +68,7 @@
 			"time": "Jun 2021 - Present",
 			"location": "Seawoods , Navi Mumbai",
 			"description": "Team leader",
-			"status": "online",
-			"images": [
-			{
-					"link": "placeholder.png",
-					"title": "Novaday Company"
-			}
-			],
-			"details": {
-				"members": "+ 10",
-				"type": "Co-Founder, Member of the board",
-				"period": "Newly founded",
-				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
-				"partners": [
-					{
-						"name": "Mahdad Ghasemian",
-						"jobTitle": "IoT Engineer",
-						"picture": "placeholder.png"
-					}
-				],
-				"achievements": ""
-			}
+			"status": "online"
 		},
 		{
 			"id":3,
@@ -122,27 +77,7 @@
 			"time": "Jun 2021 - Present",
 			"location": "Seawoods , Navi Mumbai",
 			"description": "Team leader",
-			"status": "online",
-			"images": [
-			{
-					"link": "placeholder.png",
-					"title": "Novaday Company"
-			}
-			],
-			"details": {
-				"members": "+ 10",
-				"type": "Co-Founder, Member of the board",
-				"period": "Newly founded",
-				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
-				"partners": [
-					{
-						"name": "Mahdad Ghasemian",
-						"jobTitle": "IoT Engineer",
-						"picture": "placeholder.png"
-					}
-				],
-				"achievements": ""
-			}
+			"status": "online"
 		}
 	],
 	"projects": [
@@ -152,27 +87,13 @@
 			"title": "Founder - Darchin",
 			"time": "Apr 2018 - Sep 2019",
 			"location": "Iran , Shahrood",
-			"description": "Darchin was an API based online food ordering system that developed with Laravel and Vuejs . In addition to managing the team , i was Back-End developer ( Laravel ) and Schema Designer . I developed API based system with a complete document for other developers .",
 			"status": "away",
-			"images": [
-				{
-					"link": "placeholder.png",
-					"title": "Opening conference"
-				}
-			],
 			"details": {
-				"members": "8",
+				
 				"type": "Self Employed - Full Time",
 				"period": "18 month",
-				"tecs": ["PHP", "Laravel", "Vue.js"],
-				"partners": [
-					{
-						"name": "Ali Soleymani",
-						"jobTitle": "Co-Founder - Android Developer",
-						"picture": "placeholder.png"
-					}
-				],
-				"achievements": "Improvement in Laravel, Team Management, Business Modeling, Startup challenges"
+				"tecs": ["PHP", "Laravel", "Vue.js"]
+				
 			}
 		}
 	],

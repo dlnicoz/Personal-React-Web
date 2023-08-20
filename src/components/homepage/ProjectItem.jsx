@@ -80,11 +80,7 @@ const ProjectItem = (props) => {
 					}}
 				>
 					{renderSwitch(projects.status)}{' '}
-					{projects.images !== undefined ? (
-						<Fragment>
-							<FontAwesomeIcon icon={faImages} /> {projects.images.length}{' '}
-						</Fragment>
-					) : null}
+					
 				</div>
 			</div>
 		</Link>
