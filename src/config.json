@@ -1,4 +1,5 @@
-{   "id":1,
+{
+	"id": 1,
 	"settings": {
 		"textColor": "white",
 		"backgroundColor": "#0D1117",
@@ -8,124 +9,216 @@
 		"name": "Dheeraj Sahani",
 		"jobTitle": "Software Engineer",
 		"about": ""
-		
 	},
 	"skills": [
 		{
-			"id":1,
+			"id": 1,
 			"header": {
 				"name": "server side",
 				"color": "rgb(253, 16, 86)",
-				"percent": "90"
+				"percent": "40"
 			},
 			"skills": [
-				{ "id":1 , "name": "PHP Fundamental", "degree": "senior" },
-				{ "id":2 ,"name": "PHP Fundamental", "degree": "junior" },
-				{ "id":3 ,"name": "PHP Fundamental", "degree": "senior" }
+				{
+					"id": 1,
+					"name": "PHP Fundamental",
+					"degree": "junior"
+				},
+				{
+					"id": 2,
+					"name": "Node.js",
+					"degree": "junior"
+				}
 			]
 		},
 		{
-			"id":2,
+			"id": 2,
 			"header": {
 				"name": "client side",
 				"color": "rgb(8 253 216)",
-				"percent": "50"
+				"percent": "60"
 			},
 			"skills": [
-				{ "id":1 ,"name": "PHP Fundamental", "degree": "senior" },
-				{ "id":2 ,"name": "PHP Fundamental", "degree": "junior" },
-				{ "id":3 ,"name": "PHP Fundamental", "degree": "senior" }
+				{
+					"id": 1,
+					"name": "HTML, CSS ,Javascript",
+					"degree": "senior"
+				},
+				{
+					"id": 2,
+					"name": "React.js",
+					"degree": "intermediate"
+				},
+				{
+					"id": 3,
+					"name": "Sass",
+					"degree": "junior"
+				}
 			]
 		},
 		{
-			"id":3,
+			"id": 3,
 			"header": {
 				"name": "Others",
 				"color": "rgb(253, 16, 86)",
-				"percent": "70"
+				"percent": "80"
 			},
 			"skills": [
-				{ "id":1 ,"name": "PHP Fundamental", "degree": "junior" },
-				{ "id":2 ,"name": "PHP Fundamental", "degree": "senior" },
-				{ "id":3 ,"name": "PHP Fundamental", "degree": "intermediate" }
+				{
+					"id": 1,
+					"name": "Operating linux distro's",
+					"degree": "senior"
+				},
+				{
+					"id": 2,
+					"name": "Management",
+					"degree": "intermediate"
+				},
+				{
+					"id": 3,
+					"name": "Git, github",
+					"degree": "senior"
+				},
+				{
+					"id": 4,
+					"name": "Nvim",
+					"degree": "senior"
+				}
 			]
 		}
 	],
 	"experiences": [
 		{
-			"id":1,
+			"id": 1,
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/exp11.png",
-			"title": "Team Leader - Nearlybiz",
-			"time": "Jun 2021 - Present",
+			"title": "Team Leader - Hertzsoft",
+			"time": "Jun 2021 - Offline",
 			"location": "Seawoods , Navi Mumbai",
 			"description": "Team leader",
-			"status": "online"
-		},
-		{
-			"id":2,
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/877f31218c6323f88cd37d7fb4881bf63e56a369/src/assets/exp12.svg",
-			"title": "Team Leader - Nearlybiz",
-			"time": "Jun 2021 - Present",
-			"location": "Seawoods , Navi Mumbai",
-			"description": "Team leader",
-			"status": "online"
-		},
-		{
-			"id":3,
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/exp13.png",
-			"title": "Team Leader - Nearlybiz",
-			"time": "Jun 2021 - Present",
-			"location": "Seawoods , Navi Mumbai",
-			"description": "Team leader",
-			"status": "online"
+			"status": "offline",
+			"info": "Internship"
 		}
 	],
 	"projects": [
 		{
-			"id":1,
+			"id": 1,
+			"link": "to be known",
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.png",
-			"title": "Founder - Darchin",
-			"time": "Apr 2018 - Sep 2019",
-			"location": "Iran , Shahrood",
+			"title": "Saanvi hotel",
+			"time": "Nov 2022 - Jan 2023",
+			"location": "Koparkhairane , Mumbai",
 			"status": "away",
 			"details": {
-				
-				"type": "Self Employed - Full Time",
-				"period": "18 month",
-				"tecs": ["PHP", "Laravel", "Vue.js"]
-				
+				"type": "Self Employed, Paid project",
+				"period": "3 month",
+				"tecs": [
+					"React",
+					"Netlify",
+					"Bootstrap"
+				]
+			}
+		},
+		{
+			"id": 2,
+			"link": "to be known",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.png",
+			"title": "Interio",
+			"time": "jun 2022 - jul 2022",
+			"location": "Koparkhairane , Mumbai",
+			"status": "away",
+			"details": {
+				"type": "Team work, College project",
+				"period": "1 month",
+				"tecs": [
+					"React",
+					"Netlify",
+					"css"
+				]
+			}
+		},
+		{
+			"id": 3,
+			"link": "to be known",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.png",
+			"title": "News Feed",
+			"time": "jan 2022 - mar 2022",
+			"location": "Wadala , Mumbai",
+			"status": "away",
+			"details": {
+				"type": "Android studio, Team work, College project",
+				"period": "1 month",
+				"tecs": [
+					"React",
+					"Netlify",
+					"css"
+				]
+			}
+		},
+		{
+			"id": 4,
+			"link": "to be known",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.png",
+			"title": "Emi calculator",
+			"time": "Jun 2021 - Aug 2021",
+			"location": "Wadala , Mumbai",
+			"status": "away",
+			"details": {
+				"type": "Android studio, Team work, College project",
+				"period": "1 month",
+				"tecs": [
+					"React",
+					"Netlify",
+					"css"
+				]
+			}
+		},
+		{
+			"id": 5,
+			"link": "to be known",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.png",
+			"title": "NearlyBiz",
+			"time": "Jan 2021 - Mar 2021",
+			"location": "Seawoods , Mumbai",
+			"status": "away",
+			"details": {
+				"type": "Intern",
+				"period": "3 month",
+				"tecs": [
+					"PHP",
+					"MySql",
+					"Bootstrap"
+				]
 			}
 		}
 	],
 	"memories": [
 		{
-			"id":1,
+			"id": 1,
 			"title": "Bike Riding"
 		},
 		{
-			"id":2,
+			"id": 2,
 			"title": "Online Gaming"
 		},
 		{
-			"id":3,
+			"id": 3,
 			"title": "Maintaining Vehicle"
-			
 		},
 		{
-			"id":4,
+			"id": 4,
 			"title": "Trip to Nature"
 		}
 	],
 	"educations": [
 		{
-			"id":1,
+			"id": 1,
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/diploma.png",
 			"title": "Vidyalankar Wadala",
 			"time": "2019 - 2021",
 			"description": "Diploma - Information technology"
 		},
 		{
-			"id":2,
+			"id": 2,
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/college.png",
 			"title": "LTCE College Of Engineering",
 			"time": "2021 - 2024",
@@ -134,7 +227,7 @@
 	],
 	"contact": {
 		"mobile": "+91 730486XXXX",
-		"email": "dheeraj.sahani@proton.com",
+		"email": "sahani.dev@proton.me",
 		"github": "dlnicoz",
 		"linkedin": "in/dheerajsahani"
 	}

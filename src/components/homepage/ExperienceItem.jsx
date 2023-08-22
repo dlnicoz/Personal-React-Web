@@ -67,7 +67,9 @@ const ExperienceItem = (props) => {
 					<h6 style={{ fontFamily: 'iori' }} className='showTime'>
 						<span className='d-none d-lg-inline'>{experience.location} / </span>
 						{experience.time}{' '}
-						
+						<span className='d-none d-lg-inline'>
+							, {experience.info}
+						</span>
 					</h6>
 				</div>
 				<div
