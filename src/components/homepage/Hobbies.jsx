@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Memories = (props) => {
-	const memories = props.memories;
+const Hobbies = (props) => {
+	const hobbies = props.hobbies;
 
 	return (
 		<div className='skills'>
@@ -12,10 +12,10 @@ const Memories = (props) => {
 					className='col-12'
 					style={{ marginTop: '35px', marginBottom: '15px' }}
 				>
-					{memories.map((memory) => (
+					{hobbies.map((hobby) => (
 						<Link
-						key={memory.id}
-							to={import.meta.env.VITE_KEY_KEY + '/memory/' + memory.title}
+						key={hobby.id}
+							to={import.meta.env.VITE_KEY_KEY + '/memory/' + hobby.title}
 							className='link'
 						>
 							<span
@@ -29,7 +29,7 @@ const Memories = (props) => {
 									fontSize: '1.0rem',
 								}}
 							>
-								{memory.title}
+								{hobby.title}
 							</span>
 						</Link>
 					))}
@@ -39,4 +39,4 @@ const Memories = (props) => {
 	);
 };
 
-export default Memories;
+export default Hobbies;

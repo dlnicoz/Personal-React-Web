@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from 'react';
 import styled from 'styled-components';
 import profile from '../../assets/mainprofile.jpg'
-import profile1 from '../../assets/pr11.png'
-import profile2 from '../../assets/placeholder.png'
-import profile3 from '../../assets/link.png'
-import profile4 from '../../assets/diploma.png'
+import profile1 from '../../assets/profile1.jpg'
+import profile2 from '../../assets/profile2.jpg'
+import profile3 from '../../assets/profile3.jpg'
+import profile4 from '../../assets/profile4.jpg'
 const Images = () => {
 	const gallery = [profile, profile1, profile2, profile3, profile4];
 	const [currentImage, setCurrentImage] = useState(gallery[0]);

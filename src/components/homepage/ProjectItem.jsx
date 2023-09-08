@@ -43,7 +43,7 @@ const ProjectItem = (props) => {
 
 	return (
 		<Link
-			to={'/'}
+			to={projects.link}
 			className='link'
 		>
 			<div

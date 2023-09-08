@@ -43,7 +43,7 @@ const ExperienceItem = (props) => {
 
 	return (
 		<Link
-			to={experience.title}
+			to={experience.link}
 			className='link'
 		>
 			<div

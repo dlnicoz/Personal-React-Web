@@ -90,6 +90,7 @@
 	"experiences": [
 		{
 			"id": 1,
+			"link": "https://github.com/dlnicoz/nearlybiz",
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/exp11.png",
 			"title": "Team Leader - Hertzsoft",
 			"time": "Jun 2021 - Offline",
@@ -102,7 +103,7 @@
 	"projects": [
 		{
 			"id": 6,
-			"link": "to be known",
+			"link": "https://github.com/dlnicoz/Personal-React-Web",
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.png",
 			"title": "Portfolio  - react web",
 			"time": "Jul 2023- Aug 2023",
@@ -120,7 +121,7 @@
 		},
 		{
 			"id": 1,
-			"link": "to be known",
+			"link": "https://github.com/dlnicoz/SAANAVI",
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr12.png",
 			"title": "Saanvi hotel - react web",
 			"time": "Nov 2022 - Jan 2023",
@@ -138,7 +139,7 @@
 		},
 		{
 			"id": 2,
-			"link": "to be known",
+			"link": "https://github.com/dlnicoz/Interio",
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr13.png",
 			"title": "Interio - react web",
 			"time": "jun 2022 - jul 2022",
@@ -156,7 +157,7 @@
 		},
 		{
 			"id": 3,
-			"link": "to be known",
+			"link": "https://github.com/dlnicoz/news-feed-app",
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr14.png",
 			"title": "News Feed - android app",
 			"time": "jan 2022 - mar 2022",
@@ -174,7 +175,7 @@
 		},
 		{
 			"id": 4,
-			"link": "to be known",
+			"link": "https://github.com/dlnicoz/emi-tax-electricity-bill-calculator",
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr15.png",
 			"title": "Emi calculator - android app",
 			"time": "Jun 2021 - Aug 2021",
@@ -192,7 +193,7 @@
 		},
 		{
 			"id": 5,
-			"link": "to be known",
+			"link": "https://github.com/dlnicoz/nearlybiz",
 			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr16.png",
 			"title": "NearlyBiz - php website",
 			"time": "Jan 2021 - Mar 2021",
@@ -209,7 +210,7 @@
 			}
 		}
 	],
-	"memories": [
+	"hobbies": [
 		{
 			"id": 1,
 			"title": "Bike Riding"
@@ -224,7 +225,7 @@
 		},
 		{
 			"id": 4,
-			"title": "Trip to Nature"
+			"title": "Trip to Heaven"
 		}
 	],
 	"educations": [

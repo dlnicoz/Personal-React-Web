@@ -8,7 +8,7 @@ import Intro from './Intro';
 import Experiences from './Experiences';
 import Projects from './Projects';
 import Educations from './Educations';
-import Memories from './Memories';
+import Hobbies from './Hobbies';
 import DownPdf from './DownPdf';
 
 
@@ -21,7 +21,7 @@ const Info = (props) => {
 		projects,
 		contact,
 		settings,
-		memories,
+		hobbies,
 	} = props.data;
 
 	const Container = styled.div`
@@ -46,7 +46,7 @@ const Info = (props) => {
 					<Divider size='medium' />
 					<Projects projects={projects} />
 					<Divider size='medium' />
-					<Memories memories={memories} />
+					<Hobbies hobbies={hobbies} />
 					<Divider size='medium' />
 					<Skills skills={skills} />
 					<Divider size='medium' />
