@@ -1,12 +1,11 @@
 import React, { Fragment, useState } from 'react';
 import styled from 'styled-components';
-import profile from '../../assets/mainprofile.jpg'
-import profile1 from '../../assets/profile1.jpg'
-import profile2 from '../../assets/profile2.jpg'
-import profile3 from '../../assets/profile3.jpg'
-import profile4 from '../../assets/profile4.jpg'
+import profile from '../../assets/mainprofile.webp'
+import profile1 from '../../assets/profile1.webp'
+import profile2 from '../../assets/profile2.webp'
+import profile3 from '../../assets/profile3.webp'
 const Images = () => {
-	const gallery = [profile, profile1, profile2, profile3, profile4];
+	const gallery = [profile, profile1, profile2, profile3];
 	const [currentImage, setCurrentImage] = useState(gallery[0]);
 
 	const handleClick = () => {
