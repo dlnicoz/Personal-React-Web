@@ -91,7 +91,7 @@
 		{
 			"id": 1,
 			"link": "https://github.com/dlnicoz/nearlybiz",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/d83f96e54cce02d9bf051ade3f6d90058543f14f/src/assets/exp11.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/exp11.webp",
 			"title": "Team Leader - Hertzsoft",
 			"time": "Jun 2021 - Offline",
 			"location": "Seawoods , Navi Mumbai",
@@ -104,7 +104,7 @@
 		{
 			"id": 6,
 			"link": "https://github.com/dlnicoz/Personal-React-Web",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.webp",
 			"title": "Portfolio  - react web",
 			"time": "Jul 2023- Aug 2023",
 			"location": "Badlapur , Mumbai",
@@ -122,7 +122,7 @@
 		{
 			"id": 1,
 			"link": "https://github.com/dlnicoz/SAANAVI",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr12.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr12.webp",
 			"title": "Saanvi hotel - react web",
 			"time": "Nov 2022 - Jan 2023",
 			"location": "Koparkhairane , Mumbai",
@@ -140,7 +140,7 @@
 		{
 			"id": 2,
 			"link": "https://github.com/dlnicoz/Interio",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr13.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr13.webp",
 			"title": "Interio - react web",
 			"time": "jun 2022 - jul 2022",
 			"location": "Koparkhairane , Mumbai",
@@ -158,7 +158,7 @@
 		{
 			"id": 3,
 			"link": "https://github.com/dlnicoz/news-feed-app",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr14.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr14.webp",
 			"title": "News Feed - android app",
 			"time": "jan 2022 - mar 2022",
 			"location": "Wadala , Mumbai",
@@ -176,7 +176,7 @@
 		{
 			"id": 4,
 			"link": "https://github.com/dlnicoz/emi-tax-electricity-bill-calculator",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr15.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr15.webp",
 			"title": "Emi calculator - android app",
 			"time": "Jun 2021 - Aug 2021",
 			"location": "Wadala , Mumbai",
@@ -194,7 +194,7 @@
 		{
 			"id": 5,
 			"link": "https://github.com/dlnicoz/nearlybiz",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr16.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr16.webp",
 			"title": "NearlyBiz - php website",
 			"time": "Jan 2021 - Mar 2021",
 			"location": "Seawoods , Mumbai",
@@ -231,14 +231,14 @@
 	"educations": [
 		{
 			"id": 1,
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/diploma.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/diploma.webp",
 			"title": "Vidyalankar Wadala",
 			"time": "2019 - 2021",
 			"description": "Diploma - Information technology"
 		},
 		{
 			"id": 2,
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/college.png",
+			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/college.webp",
 			"title": "LTCE College Of Engineering",
 			"time": "2021 - 2024",
 			"description": "Degree - Software Engineering"
