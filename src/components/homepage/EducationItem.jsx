@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../App.css';
-import college from '../../assets/college.png'
 
 const EducationItem = (props) => {
 	const education = props.education;
