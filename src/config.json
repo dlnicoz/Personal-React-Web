@@ -1,253 +1,244 @@
 {
-	"id": 1,
-	"settings": {
-		"textColor": "white",
-		"backgroundColor": "#0D1117",
-		"padding": "50"
-	},
-	"info": {
-		"name": "Dheeraj Sahani",
-		"jobTitle": "Software Engineer",
-		"about": ""
-	},
-	"skills": [
-		{
-			"id": 1,
-			"header": {
-				"name": "server side",
-				"color": "rgb(253, 16, 86)",
-				"percent": "40"
-			},
-			"skills": [
-				{
-					"id": 1,
-					"name": "PHP Fundamental",
-					"degree": "junior"
-				},
-				{
-					"id": 2,
-					"name": "Node.js",
-					"degree": "junior"
-				}
-			]
-		},
-		{
-			"id": 2,
-			"header": {
-				"name": "client side",
-				"color": "rgb(8 253 216)",
-				"percent": "60"
-			},
-			"skills": [
-				{
-					"id": 1,
-					"name": "HTML, CSS ,Javascript",
-					"degree": "senior"
-				},
-				{
-					"id": 2,
-					"name": "React.js",
-					"degree": "intermediate"
-				},
-				{
-					"id": 3,
-					"name": "Sass",
-					"degree": "junior"
-				}
-			]
-		},
-		{
-			"id": 3,
-			"header": {
-				"name": "Others",
-				"color": "rgb(253, 16, 86)",
-				"percent": "80"
-			},
-			"skills": [
-				{
-					"id": 1,
-					"name": "Operating linux distro's",
-					"degree": "senior"
-				},
-				{
-					"id": 2,
-					"name": "Management",
-					"degree": "intermediate"
-				},
-				{
-					"id": 3,
-					"name": "Git, github",
-					"degree": "senior"
-				},
-				{
-					"id": 4,
-					"name": "Nvim",
-					"degree": "senior"
-				}
-			]
-		}
-	],
-	"experiences": [
-		{
-			"id": 1,
-			"link": "https://github.com/dlnicoz/nearlybiz",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/exp11.webp",
-			"title": "Team Leader - Hertzsoft",
-			"time": "Jun 2021 - Offline",
-			"location": "Seawoods , Navi Mumbai",
-			"description": "Team leader",
-			"status": "offline",
-			"info": "Internship"
-		}
-	],
-	"projects": [
-		{
-			"id": 6,
-			"link": "https://github.com/dlnicoz/Personal-React-Web",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.webp",
-			"title": "Portfolio  - react web",
-			"time": "Jul 2023- Aug 2023",
-			"location": "Badlapur , Mumbai",
-			"status": "away",
-			"details": {
-				"type": "Self Employed, Self project",
-				"period": "2 month",
-				"tecs": [
-					"React",
-					"Netlify",
-					"Bootstrap"
-				]
-			}
-		},
-		{
-			"id": 1,
-			"link": "https://github.com/dlnicoz/SAANAVI",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr12.webp",
-			"title": "Saanvi hotel - react web",
-			"time": "Nov 2022 - Jan 2023",
-			"location": "Koparkhairane , Mumbai",
-			"status": "away",
-			"details": {
-				"type": "Self Employed, Paid project",
-				"period": "3 month",
-				"tecs": [
-					"React",
-					"Netlify",
-					"Bootstrap"
-				]
-			}
-		},
-		{
-			"id": 2,
-			"link": "https://github.com/dlnicoz/Interio",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr13.webp",
-			"title": "Interio - react web",
-			"time": "jun 2022 - jul 2022",
-			"location": "Koparkhairane , Mumbai",
-			"status": "away",
-			"details": {
-				"type": "Team work, College project",
-				"period": "1 month",
-				"tecs": [
-					"React",
-					"Netlify",
-					"css"
-				]
-			}
-		},
-		{
-			"id": 3,
-			"link": "https://github.com/dlnicoz/news-feed-app",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr14.webp",
-			"title": "News Feed - android app",
-			"time": "jan 2022 - mar 2022",
-			"location": "Wadala , Mumbai",
-			"status": "away",
-			"details": {
-				"type": "Android studio, Team work, College project",
-				"period": "1 month",
-				"tecs": [
-					"React",
-					"Netlify",
-					"css"
-				]
-			}
-		},
-		{
-			"id": 4,
-			"link": "https://github.com/dlnicoz/emi-tax-electricity-bill-calculator",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr15.webp",
-			"title": "Emi calculator - android app",
-			"time": "Jun 2021 - Aug 2021",
-			"location": "Wadala , Mumbai",
-			"status": "away",
-			"details": {
-				"type": "Android studio, Team work, College project",
-				"period": "1 month",
-				"tecs": [
-					"React",
-					"Netlify",
-					"css"
-				]
-			}
-		},
-		{
-			"id": 5,
-			"link": "https://github.com/dlnicoz/nearlybiz",
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr16.webp",
-			"title": "NearlyBiz - php website",
-			"time": "Jan 2021 - Mar 2021",
-			"location": "Seawoods , Mumbai",
-			"status": "away",
-			"details": {
-				"type": "Intern",
-				"period": "3 month",
-				"tecs": [
-					"PHP",
-					"MySql",
-					"Bootstrap"
-				]
-			}
-		}
-	],
-	"hobbies": [
-		{
-			"id": 1,
-			"title": "Bike Riding"
-		},
-		{
-			"id": 2,
-			"title": "Online Gaming"
-		},
-		{
-			"id": 3,
-			"title": "Maintaining Vehicle"
-		},
-		{
-			"id": 4,
-			"title": "Trip to Heaven"
-		}
-	],
-	"educations": [
-		{
-			"id": 1,
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/diploma.webp",
-			"title": "Vidyalankar Wadala",
-			"time": "2019 - 2021",
-			"description": "Diploma - Information technology"
-		},
-		{
-			"id": 2,
-			"logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/college.webp",
-			"title": "LTCE College Of Engineering",
-			"time": "2021 - 2024",
-			"description": "Degree - Software Engineering"
-		}
-	],
-	"contact": {
-		"mobile": "+91 7304861722",
-		"email": "sahani.dev@proton.me",
-		"github": "dlnicoz",
-		"linkedin": "in/dheerajsahani"
-	}
+  "id": 1,
+  "settings": {
+    "textColor": "white",
+    "backgroundColor": "#0D1117",
+    "padding": "50"
+  },
+  "info": {
+    "name": "Dheeraj Sahani",
+    "jobTitle": "Software Engineer",
+    "about": ""
+  },
+  "skills": [
+    {
+      "id": 1,
+      "header": {
+        "name": "server side",
+        "color": "rgb(253, 16, 86)",
+        "percent": "40"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "name": "PHP Fundamental",
+          "degree": "junior"
+        },
+        {
+          "id": 2,
+          "name": "Node.js",
+          "degree": "junior"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "header": {
+        "name": "client side",
+        "color": "rgb(8 253 216)",
+        "percent": "60"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "name": "HTML, CSS ,Javascript",
+          "degree": "senior"
+        },
+        {
+          "id": 2,
+          "name": "React.js",
+          "degree": "intermediate"
+        },
+        {
+          "id": 3,
+          "name": "Sass",
+          "degree": "junior"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "header": {
+        "name": "Others",
+        "color": "rgb(253, 16, 86)",
+        "percent": "80"
+      },
+      "skills": [
+        {
+          "id": 1,
+          "name": "Operating linux distro's",
+          "degree": "senior"
+        },
+        {
+          "id": 2,
+          "name": "Management",
+          "degree": "intermediate"
+        },
+        {
+          "id": 3,
+          "name": "Git, github",
+          "degree": "senior"
+        },
+        {
+          "id": 4,
+          "name": "Nvim",
+          "degree": "senior"
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "link": "https://github.com/dlnicoz/nearlybiz",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/exp11.webp",
+      "title": "Team Leader - Hertzsoft",
+      "time": "Jun 2021 - Offline",
+      "location": "Seawoods , Navi Mumbai",
+      "description": "Team leader",
+      "status": "offline",
+      "info": "Internship"
+    }
+  ],
+  "projects": [
+    {
+      "id": 7,
+      "link": "https://github.com/dlnicoz/DhirajContractor",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr14.webp",
+      "title": "DhirajContractor- react web",
+      "time": "Jan 2024 - Feb 2024",
+      "location": "Badlapur , Mumbai",
+      "status": "away",
+      "details": {
+        "type": "Paid Project, Self Employed",
+        "period": "2 month",
+        "tecs": ["React", "Tailwindcss"]
+      }
+    },
+
+    {
+      "id": 6,
+      "link": "https://github.com/dlnicoz/Personal-React-Web",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.webp",
+      "title": "Portfolio  - react web",
+      "time": "Jul 2023- Aug 2023",
+      "location": "Badlapur , Mumbai",
+      "status": "away",
+      "details": {
+        "type": "Self Employed, Self project",
+        "period": "2 month",
+        "tecs": ["React", "Netlify", "Bootstrap"]
+      }
+    },
+    {
+      "id": 1,
+      "link": "https://github.com/dlnicoz/SAANAVI",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr12.webp",
+      "title": "Saanvi hotel - react web",
+      "time": "Nov 2022 - Jan 2023",
+      "location": "Koparkhairane , Mumbai",
+      "status": "away",
+      "details": {
+        "type": "Self Employed, Paid project",
+        "period": "3 month",
+        "tecs": ["React", "Netlify", "Bootstrap"]
+      }
+    },
+    {
+      "id": 2,
+      "link": "https://github.com/dlnicoz/Interio",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr13.webp",
+      "title": "Interio - react web",
+      "time": "jun 2022 - jul 2022",
+      "location": "Koparkhairane , Mumbai",
+      "status": "away",
+      "details": {
+        "type": "Team work, College project",
+        "period": "1 month",
+        "tecs": ["React", "Netlify", "css"]
+      }
+    },
+    {
+      "id": 3,
+      "link": "https://github.com/dlnicoz/news-feed-app",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr14.webp",
+      "title": "News Feed - android app",
+      "time": "jan 2022 - mar 2022",
+      "location": "Wadala , Mumbai",
+      "status": "away",
+      "details": {
+        "type": "Android studio, Team work, College project",
+        "period": "1 month",
+        "tecs": ["React", "Netlify", "css"]
+      }
+    },
+    {
+      "id": 4,
+      "link": "https://github.com/dlnicoz/emi-tax-electricity-bill-calculator",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr15.webp",
+      "title": "Emi calculator - android app",
+      "time": "Jun 2021 - Aug 2021",
+      "location": "Wadala , Mumbai",
+      "status": "away",
+      "details": {
+        "type": "Android studio, Team work, College project",
+        "period": "1 month",
+        "tecs": ["React", "Netlify", "css"]
+      }
+    },
+    {
+      "id": 5,
+      "link": "https://github.com/dlnicoz/nearlybiz",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr16.webp",
+      "title": "NearlyBiz - php website",
+      "time": "Jan 2021 - Mar 2021",
+      "location": "Seawoods , Mumbai",
+      "status": "away",
+      "details": {
+        "type": "Intern",
+        "period": "3 month",
+        "tecs": ["PHP", "MySql", "Bootstrap"]
+      }
+    }
+  ],
+  "hobbies": [
+    {
+      "id": 1,
+      "title": "Bike Riding"
+    },
+    {
+      "id": 2,
+      "title": "Online Gaming"
+    },
+    {
+      "id": 3,
+      "title": "Maintaining Vehicle"
+    },
+    {
+      "id": 4,
+      "title": "Trip to Heaven"
+    }
+  ],
+  "educations": [
+    {
+      "id": 1,
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/diploma.webp",
+      "title": "Vidyalankar Wadala",
+      "time": "2019 - 2021",
+      "description": "Diploma - Information technology"
+    },
+    {
+      "id": 2,
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/college.webp",
+      "title": "LTCE College Of Engineering",
+      "time": "2021 - 2024",
+      "description": "Degree - Software Engineering"
+    }
+  ],
+  "contact": {
+    "mobile": "+91 7304861722",
+    "email": "sahani.dev@proton.me",
+    "github": "dlnicoz",
+    "linkedin": "in/dheerajsahani"
+  }
 }
