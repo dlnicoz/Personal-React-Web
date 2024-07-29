@@ -67,7 +67,7 @@
         {
           "id": 1,
           "name": "Operating linux distro's",
-          "degree": "senior"
+          "degree": ""
         },
         {
           "id": 2,
@@ -204,19 +204,19 @@
   "hobbies": [
     {
       "id": 1,
-      "title": "Bike Riding"
+      "title": "Automotive Enthusiast"
     },
     {
       "id": 2,
-      "title": "Online Gaming"
+      "title": "Strategic Gaming"
     },
     {
       "id": 3,
-      "title": "Maintaining Vehicle"
+      "title": "Motorhead"
     },
     {
       "id": 4,
-      "title": "Trip to Heaven"
+      "title": "Devotional Traveler"
     }
   ],
   "educations": [
