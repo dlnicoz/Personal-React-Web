@@ -14,35 +14,55 @@
     {
       "id": 1,
       "header": {
-        "name": "server side",
+        "name": "Programming Language",
         "color": "rgb(253, 16, 86)",
-        "percent": "40"
+        "percent": "80"
       },
       "skills": [
         {
           "id": 1,
-          "name": "PHP Fundamental",
-          "degree": "junior"
+          "name": "Javascript",
+          "degree": "intermediate"
         },
         {
           "id": 2,
-          "name": "Node.js",
+          "name": "Python",
           "degree": "junior"
+        },
+        {
+          "id": 3,
+          "name": "Html/CSS3",
+          "degree": "intermediate"
+        },
+        {
+          "id": 4,
+          "name": "Java",
+          "degree": "intermediate"
+        },
+        {
+          "id": 5,
+          "name": "Php",
+          "degree": "junior"
+        },
+        {
+          "id": 6,
+          "name": "Sql",
+          "degree": "intermediate"
         }
       ]
     },
     {
       "id": 2,
       "header": {
-        "name": "client side",
+        "name": "Frameworks / Technologies & Tools",
         "color": "rgb(8 253 216)",
-        "percent": "60"
+        "percent": "70"
       },
       "skills": [
         {
           "id": 1,
-          "name": "HTML, CSS ,Javascript",
-          "degree": "senior"
+          "name": "Mysql",
+          "degree": "intermediate"
         },
         {
           "id": 2,
@@ -51,8 +71,23 @@
         },
         {
           "id": 3,
-          "name": "Sass",
+          "name": "Android Studio",
+          "degree": "intermediate"
+        },
+        {
+          "id": 4,
+          "name": "Node / Express",
           "degree": "junior"
+        },
+        {
+          "id": 5,
+          "name": "Tableau / excel",
+          "degree": "junior"
+        },
+        {
+          "id": 6,
+          "name": "Web Hosting & Configurations",
+          "degree": "senior"
         }
       ]
     },
@@ -66,23 +101,23 @@
       "skills": [
         {
           "id": 1,
-          "name": "Operating linux distro's",
+          "name": "Linux operating system",
           "degree": ""
         },
         {
           "id": 2,
-          "name": "Management",
-          "degree": "intermediate"
+          "name": "git / github",
+          "degree": ""
         },
         {
           "id": 3,
-          "name": "Git, github",
-          "degree": "senior"
+          "name": "vim ",
+          "degree": ""
         },
         {
           "id": 4,
-          "name": "Nvim",
-          "degree": "senior"
+          "name": "SketchUp pro",
+          "degree": ""
         }
       ]
     }
@@ -230,7 +265,7 @@
     {
       "id": 2,
       "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/college.webp",
-      "title": "LTCE College Of Engineering",
+      "title": "LTCE ColleGe Of Engineering",
       "time": "2021 - 2024",
       "description": "Degree - Software Engineering"
     }
