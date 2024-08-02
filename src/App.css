@@ -69,7 +69,7 @@ body {
 
 .title {
   font-size: 3rem;
-  color: #08fdd8;
+  color: #054e38;
   line-height: 1;
 }
 
@@ -106,20 +106,20 @@ a:hover {
 /* iori */
 .badge-light {
   letter-spacing: 0.1rem;
-  color: #212529;
-  background-color: #f8f9fa;
+  background-color: #212529;
+  color: #f8f9fa;
 }
 
 .badge-warning {
-  color: #212529;
+  background-color: #212529;
   letter-spacing: 0.1rem;
-  background-color: #ffc107;
+  color: #ffc107;
 }
 
 .badge-dark {
   letter-spacing: 0.1rem;
-  color: #fff;
-  background-color: #343a40;
+  background-color: #a8dadc;
+  color: #343a40;
 }
 
 .progress {
@@ -149,13 +149,13 @@ a:hover {
 
 .link {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .link:hover {
   opacity: 0.5;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .showTime {

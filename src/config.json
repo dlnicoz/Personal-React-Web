@@ -1,8 +1,8 @@
 {
   "id": 1,
   "settings": {
-    "textColor": "white",
-    "backgroundColor": "#0D1117",
+    "textColor": "black",
+    "backgroundColor": "#id3ece5",
     "padding": "50"
   },
   "info": {
@@ -55,7 +55,7 @@
       "id": 2,
       "header": {
         "name": "Frameworks / Technologies & Tools",
-        "color": "rgb(8 253 216)",
+        "color": "#097958",
         "percent": "70"
       },
       "skills": [
@@ -265,7 +265,7 @@
     {
       "id": 2,
       "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/college.webp",
-      "title": "LTCE ColleGe Of Engineering",
+      "title": "LTCE College Of Engineering",
       "time": "2021 - 2024",
       "description": "Degree - Software Engineering"
     }
