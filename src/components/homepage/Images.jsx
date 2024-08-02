@@ -6,7 +6,7 @@ import profile2 from "../../assets/profile2.webp";
 import profile3 from "../../assets/profile3.webp";
 const Images = () => {
   const gallery = [profile, profile1, profile2, profile3];
-  const [currentImage, setCurrentImage] = useState(gallery[3]);
+  const [currentImage, setCurrentImage] = useState(gallery[0]);
 
   const handleClick = () => {
     const randomIndex = Math.floor(Math.random() * gallery.length);
