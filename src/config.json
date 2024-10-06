@@ -137,6 +137,20 @@
   ],
   "projects": [
     {
+      "id": 8,
+      "link": "https://github.com/dlnicoz/Learning-Data-Science",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr15.webp",
+      "title": "DataScience - Project",
+      "time": "June 2024 - August 2024",
+      "location": "Badlapur , Mumbai",
+      "status": "away",
+      "details": {
+        "type": "Self Project",
+        "period": "3 month",
+        "tecs": ["Python", "Sql , Tableau"]
+      }
+    },
+    {
       "id": 7,
       "link": "https://github.com/dlnicoz/DhirajContractor",
       "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr14.webp",
