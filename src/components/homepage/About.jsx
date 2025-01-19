@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+// import '../../App.css';
 
 const About = (props) => {
 	const about = props.about;

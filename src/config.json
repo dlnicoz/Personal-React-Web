@@ -132,7 +132,51 @@
       "location": "Seawoods , Navi Mumbai",
       "description": "Team leader",
       "status": "offline",
-      "info": "Internship"
+      "info": "Internship",
+      "images": [
+        {
+          "link": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80",
+          "title": "Development Environment"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+          "title": "Team Collaboration"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+          "title": "Project Planning"
+        }
+      ],
+      "details": {
+        "projectOverview": {
+          "name": "Social Naka",
+          "tagline": "A platform to showcase all your social links in a visually appealing way.",
+          "briefDescription": "Social Naka is a user-friendly platform that allows users to consolidate all their social links into a single customizable web page.",
+          "projectLink": "https://github.com/dlnicoz/nearlybiz"
+        },
+        "problemStatement": "Managing and sharing multiple social media links efficiently can be challenging.",
+        "solution": "Social Naka provides a single platform for consolidating social links, offering customizable web pages and a search feature to discover others.",
+        "keyFeatures": [
+          "User-friendly web page creation",
+          "Search functionality to find other users",
+          "Free-to-use platform",
+          "Responsive design for all devices"
+        ],
+        "technologiesUsed": {
+          "frontend": "React.js, Redux, CSS frameworks (e.g., Tailwind or Bootstrap)",
+          "backend": "Node.js, Express.js",
+          "database": "MongoDB",
+          "others": "JWT tokens for authentication, REST API for communication"
+        },
+        "methodologiesAndComplexImplementations": {
+          "restAPI": "APIs are used for CRUD operations.",
+          "jwtTokens": "Implemented for secure user authentication.",
+          "searchAlgorithm": "Custom logic for efficient user discovery.",
+          "customizableThemes": "Dynamic themes implemented with challenges in real-time updates.",
+          "performanceOptimization": "Lazy loading and caching techniques were used."
+        },
+        "challengesAndSolutions": "Faced challenges in optimizing the search feature and ensuring seamless user experience, resolved through efficient indexing and caching."
+      }
     }
   ],
   "projects": [
@@ -144,11 +188,26 @@
       "time": "Jan 2024 - Feb 2024",
       "location": "Badlapur , Mumbai",
       "status": "away",
+      "images": [
+				{
+					"link": "placeholder.png",
+					"title": "Opening conference"
+				}
+			],
       "details": {
-        "type": "Paid Project, Self Employed",
-        "period": "2 month",
-        "tecs": ["React", "Tailwindcss"]
-      }
+				"members": "8",
+				"type": "Self Employed - Full Time",
+				"period": "18 month",
+				"tecs": ["PHP", "Laravel", "Vue.js"],
+				"partners": [
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "Co-Founder - Android Developer",
+						"picture": "placeholder.png"
+					}
+				],
+				"achievements": "Improvement in Laravel, Team Management, Business Modeling, Startup challenges"
+			} 
     },
 
     {

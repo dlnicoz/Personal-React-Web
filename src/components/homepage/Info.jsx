@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+// import '../../App.css';
 import Skills from './Skills';
 import Divider from '../layout/Divider';
 import Intro from './Intro';

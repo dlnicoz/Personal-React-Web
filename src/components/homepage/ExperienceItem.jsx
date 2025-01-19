@@ -41,7 +41,7 @@ const ExperienceItem = (props) => {
   const experience = props.experience;
 
   return (
-    <Link to={experience.link} className="link" target="_blank">
+    <Link to={`/experience/${experience.title}`} className="link" target="_blank">
       <div
         className="row"
         id={experience.title}
@@ -75,6 +75,11 @@ const ExperienceItem = (props) => {
           }}
         >
           {renderSwitch(experience.status)}{" "}
+          {experience.images !== undefined ? (
+						<Fragment>
+							<FontAwesomeIcon icon={faImages} /> {experience.images.length}{' '}
+						</Fragment>
+					) : null}
         </div>
       </div>
     </Link>

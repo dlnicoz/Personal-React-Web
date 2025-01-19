@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import SkillItem from "./SkillItem";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "../../App.css";
+// import "../../App.css";
 
 const Skills = (props) => {
   const skills = props.skills;

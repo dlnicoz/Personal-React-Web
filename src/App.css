@@ -73,6 +73,18 @@ body {
   line-height: 1;
 }
 
+.aback {
+  font-size: 2rem;
+  color: #fd1056;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.aback:hover {
+  text-decoration: none;
+  color: #08fdd8;
+}
+
 a {
   font-size: 3rem;
   color: #fd1056;

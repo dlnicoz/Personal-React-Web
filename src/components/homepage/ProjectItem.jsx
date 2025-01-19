@@ -41,7 +41,7 @@ const ProjectItem = (props) => {
   const projects = props.projects;
 
   return (
-    <Link to={projects.link} className="link" target="_blank">
+    <Link to={`/projects/${projects.title}`} className="link" target="_blank">
       <div
         className="row"
         id={projects.title}

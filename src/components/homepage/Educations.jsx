@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import EducationItem from './EducationItem';
 import Divider from '../layout/Divider';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+// import '../../App.css';
 
 const Education = (props) => {
 	const educations = props.educations;

@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+// import '../../App.css';
 import logolink from '../../assets/link.webp'
 import resume from '../../assets/resume.pdf'
 const DownPdf = () => {
