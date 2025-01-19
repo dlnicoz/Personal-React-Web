@@ -1,6 +1,6 @@
 import ConfigData from './config.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import './App.css'
+import './App.css'
 import './index.css'; 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from './components/homepage/Homepage.jsx';

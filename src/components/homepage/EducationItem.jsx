@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import '../../App.css';
+import '../../App.css';
 
 const EducationItem = (props) => {
 	const education = props.education;
