@@ -189,7 +189,7 @@
     {
       "id": 2,
       "link": "https://github.com/dlnicoz/socialnaka",
-      "logo": "https://img.icons8.com/nolan/96/physics.png",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/feature/more-detail/src/assets/icons8-link.gif",
       "title": "SocialNaka - Freelancing",
       "time": "Sep 2024 - Dec 2024",
       "location": "Remote",
@@ -245,7 +245,7 @@
     {
       "id": 2,
       "link": "https://github.com/dlnicoz/saanvi-hotel",
-      "logo": "https://img.icons8.com/cotton/64/windmill--v2.png",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/feature/more-detail/src/assets/icons8-sun-lounger.gif",
       "title": "Saanvi Hotel - Freelance",
       "time": "Jan 2023 - Remote",
       "location": "Satara, Maharashtra (Remote)",
