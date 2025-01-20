@@ -50,17 +50,17 @@ const ExperienceItem = (props) => {
         <div className="col-lg-1 d-none d-lg-block">
           <img
             src={experience.logo}
-            className="img-fluid company-logo"
+            className="img-fluid company-logo align-middle inline"
             alt={experience.title}
             style={{ borderRadius: "5px", width: "100%" }}
           ></img>
         </div>
         <div className="col-1g-11 col-sm-11" style={{ width: "100%" }}>
-          <h5 style={{ fontFamily: "iori" }}>{experience.title}</h5>
+          <h5 className="text-xl mb-2" style={{ fontFamily: "iori" }}>{experience.title}</h5>
         </div>
 
         <div className="col-sm-11 offset-sm-1">
-          <h6 style={{ fontFamily: "iori" }} className="showTime">
+          <h6 style={{ fontFamily: "iori" }} className="showTime mb-2">
             <span className="d-none d-lg-inline">{experience.location} / </span>
             {experience.time}{" "}
             <span className="d-none d-lg-inline">, {experience.info}</span>

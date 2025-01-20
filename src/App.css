@@ -8,8 +8,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'iori2';
+  src: url('fonts/JosefinSans-Italic-VariableFont_wght.ttf') format('ttf'),
+       url('fonts/JosefinSans-VariableFont_wght.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: "iori";
+  /* font-family: "iori"; */
 }
 
 .h6 * {

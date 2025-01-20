@@ -5,15 +5,10 @@ import resume from '../../assets/resume.pdf'
 const DownPdf = () => {
 	
 	return (
-		<div className='resume'>
-            <a className='logolink' href={resume} download='resume.pdf' target='_blank'>
-            <div> Resume
-            <img className='logoRImg' src={logolink} alt="not found"  />
-             </div>
-            
+		<div className='resume inline'>
+            <a className='text-[#fd1056] hover:text-red-600' href={resume} download='resume.pdf' target='_blank'>
+            <div style={{ fontFamily:'iori'}}> Resume</div>
             </a>
-			 
-			
 		</div>
 	);
 };

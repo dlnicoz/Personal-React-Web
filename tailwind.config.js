@@ -2,7 +2,12 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        coolvetica: ['Coolvetica', 'sans-serif'],
+        josefin: ['Josefin Sans', 'sans-serif'], 
+      },
+    },
   },
   plugins: [],
 };

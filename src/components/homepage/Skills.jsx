@@ -9,7 +9,7 @@ const Skills = (props) => {
 
   return (
     <div className="skills">
-      <div className="title">Skills</div>
+      <div className="title" style={{ fontFamily:'iori'}}>Skills</div>
       {skills.map((skill) => (
         <div className="row skills" key={skill.id}>
           <div

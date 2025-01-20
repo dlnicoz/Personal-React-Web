@@ -38,11 +38,6 @@ function BackButton() {
       <div className="bg-white/80 backdrop-blur-sm p-3 rounded-full hover:bg-white shadow-lg hover:shadow-xl transition-all duration-300 group">
         <ArrowLeft className="w-5 h-5 text-gray-700 group-hover:text-gray-900" />
       </div>
-      <div className={`bg-white/80 backdrop-blur-sm py-2 px-4 rounded-full shadow-lg transition-all duration-300 ${
-        isVisible ? 'translate-x-0 opacity-100' : '-translate-x-4 opacity-0'
-      }`}>
-        <span className="text-sm font-medium text-gray-700">Back to Home</span>
-      </div>
     </Link>
   );
 }
