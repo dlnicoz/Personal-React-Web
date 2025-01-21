@@ -61,13 +61,13 @@
       "skills": [
         {
           "id": 1,
-          "name": "Mysql",
+          "name": "React.js",
           "degree": "intermediate"
         },
         {
           "id": 2,
-          "name": "React.js",
-          "degree": "intermediate"
+          "name": "React Native",
+          "degree": "junior"
         },
         {
           "id": 3,
@@ -81,11 +81,21 @@
         },
         {
           "id": 5,
-          "name": "Tableau / excel",
-          "degree": "junior"
+          "name": "MongoDb",
+          "degree": "intermediate"
         },
         {
           "id": 6,
+          "name": "MySql",
+          "degree": "intermediate"
+        },
+        {
+          "id": 7,
+          "name": "Tableau / excel",
+          "degree": "intermediate"
+        },
+        {
+          "id": 8,
           "name": "Web Hosting & Configurations",
           "degree": "senior"
         }
@@ -111,7 +121,7 @@
         },
         {
           "id": 3,
-          "name": "vim ",
+          "name": "vim",
           "degree": ""
         },
         {
@@ -126,113 +136,448 @@
     {
       "id": 1,
       "link": "https://github.com/dlnicoz/nearlybiz",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/exp11.webp",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/feature/more-detail/src/assets/icons8-card.gif",
       "title": "Team Leader - Hertzsoft",
       "time": "Jun 2021 - Offline",
-      "location": "Seawoods , Navi Mumbai",
-      "description": "Team leader",
+      "location": "Seawoods, Navi Mumbai",
+      "description": "Backend Developer",
       "status": "offline",
-      "info": "Internship"
+      "info": "Internship",
+      "images": [
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near1.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near2.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near3.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near5.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near7.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near8.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near9.PNG",
+          "title": ""
+        }
+      ],
+      "details": {
+        "projectOverview": {
+          "name": "NearlyBiz",
+          "tagline": "A platform to connect businesses with local customers.",
+          "briefDescription": "NearlyBiz is a platform where businesses can create their profiles and list their shops, making it easier for local customers to find them.",
+          "projectLink": "https://github.com/dlnicoz/nearlybiz"
+        },
+        "problemStatement": "Due to the COVID-19 pandemic, many businesses struggled to connect with local customers and establish an online presence.",
+        "solution": "NearlyBiz allows businesses to register, create a business card, and list their shops on the platform. Customers can search for local businesses based on location and reviews.",
+        "keyFeatures": [
+          "Business registration and login",
+          "Shop listing with reviews",
+          "Location-based search for customers",
+          "User-friendly business card creation"
+        ],
+        "technologiesUsed": {
+          "frontend": "HTML, CSS, JavaScript",
+          "backend": "PHP",
+          "database": "MySQL",
+          "others": "PHPMyAdmin for database management"
+        },
+        "methodologiesAndComplexImplementations": {
+          "authentication": "Basic user registration and login system.",
+          "databaseIntegration": "Connected PHPMyAdmin to MySQL for seamless data storage.",
+          "businessCardFeature": "Developed a feature to create and display business cards for shops."
+        },
+        "challengesAndSolutions": "The project faced significant interruptions due to the COVID-19 pandemic, leading to a reduced scope. Despite this, the registration, login, and business card creation features were completed successfully, marking a significant achievement as my first coding experience."
+      }
+    },
+    {
+      "id": 2,
+      "link": "https://github.com/dlnicoz/socialnaka",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/feature/more-detail/src/assets/icons8-link.gif",
+      "title": "SocialNaka - Freelancing",
+      "time": "Sep 2024 - Dec 2024",
+      "location": "Remote",
+      "description": "Handled the complete development lifecycle of Social Naka, a platform for creating personal pages and enabling professional discovery.",
+      "status": "offline",
+      "info": "Full stack developer",
+      "images": [
+        {
+          "link": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80",
+          "title": "Development Environment"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+          "title": "User Interface Design"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+          "title": "Project Planning and Collaboration"
+        }
+      ],
+      "details": {
+        "projectOverview": {
+          "name": "Social Naka",
+          "tagline": "A platform to showcase all your social links in a visually appealing way while enabling professional discovery.",
+          "briefDescription": "Social Naka is a user-friendly platform allowing users to create free personal pages (like Linktree) and discover professionals and influencers through an integrated search feature. It solves the problem of managing and sharing multiple social links efficiently, especially for influencers and professionals.",
+          "projectLink": "https://socialnak-a.netlify.app/"
+        },
+        "problemStatement": "Platforms like Linktree are not popular in India and lack features for discoverability, limiting opportunities for professionals to connect with clients or collaborators. Additionally, influencers often struggle with sharing multiple social links in their bios or posts.",
+        "solution": "Social Naka provides users with customizable personal pages and a unique discoverability feature, enabling businesses and individuals to find and verify professionals easily. Influencers can now share a single page link containing all their social media links, simplifying the process.",
+        "keyFeatures": [
+          "Create free personal pages with unique URLs",
+          "Integrated search functionality for professional discovery",
+          "Toggle between private and public visibility",
+          "Display all social media links for credibility",
+          "Responsive design for seamless access across devices"
+        ],
+        "technologiesUsed": {
+          "frontend": "React.js, Tailwind CSS",
+          "backend": "Node.js, Express.js",
+          "database": "MongoDB (Atlas)",
+          "others": "JWT tokens for authentication, REST API for communication"
+        },
+        "methodologiesAndComplexImplementations": {
+          "restAPI": "APIs were designed for efficient CRUD operations and seamless communication between the frontend and backend.",
+          "jwtTokens": "Secure user authentication and session management were implemented using JWT tokens.",
+          "searchAlgorithm": "Custom logic to enable efficient searching and filtering of professionals by categories and keywords.",
+          "userProfileCustomization": "Dynamic themes and profile customization features with real-time updates.",
+          "performanceOptimization": "Lazy loading and caching techniques were used to improve performance, especially for the search feature."
+        },
+        "challengesAndSolutions": "Key challenges included optimizing the search feature for fast and accurate results, addressed through efficient indexing and caching mechanisms. Limited funding meant relying on free-tier services like Netlify for hosting, MongoDB Atlas for the database, and Railway for the backend. The limitation of not being able to upload profile images was managed by using URL-based profile pictures, ensuring a cost-effective yet functional solution. Responsive design and rigorous testing ensured a seamless user experience across devices."
+      }
+    },
+    {
+      "id": 2,
+      "link": "https://github.com/dlnicoz/saanvi-hotel",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/feature/more-detail/src/assets/icons8-sun-lounger.gif",
+      "title": "Saanvi Hotel - Freelance",
+      "time": "Jan 2023 - Remote",
+      "location": "Satara, Maharashtra (Remote)",
+      "description": "Freelancing Project",
+      "status": "offline",
+      "info": " Frontend Developer",
+      "images": [
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near1.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near2.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near3.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near5.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near7.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near8.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near9.PNG",
+          "title": ""
+        }
+      ],
+      "details": {
+        "projectOverview": {
+          "name": "Saanvi Hotel",
+          "tagline": "A static website for showcasing agrotourism experiences.",
+          "briefDescription": "Saanvi Hotel is a static website designed to showcase the natural beauty and services of an agrotourism hotel in Satara, Maharashtra. It provides a simple and user-friendly interface to attract customers.",
+          "projectLink": "https://hotelsaanvi.netlify.app/"
+        },
+        "problemStatement": "The client needed a low-budget, easy-to-use website to attract customers for their agrotourism hotel, given that many of their customers are not tech-savvy.",
+        "solution": "A static website was developed using React.js, hosted on Netlify's free tier. The site includes photo galleries, service details, hotel pricing, and a direct WhatsApp contact option for customer convenience.",
+        "keyFeatures": [
+          "Photo gallery with 40-50 images showcasing nature and hotel surroundings",
+          "Details of hotel services and pricing",
+          "WhatsApp integration for direct customer communication",
+          "SEO optimization for better visibility",
+          "Lightweight design for faster loading on all devices"
+        ],
+        "technologiesUsed": {
+          "frontend": "React.js, CSS",
+          "hosting": "Netlify (Free Tier)",
+          "tools": "Lighthouse for performance analysis, SEO for visibility"
+        },
+        "methodologiesAndComplexImplementations": {
+          "photoGallery": "Implemented a responsive and lightweight gallery to display high-quality images.",
+          "whatsappIntegration": "Added a clickable WhatsApp link for easy customer contact.",
+          "seoOptimization": "Basic SEO techniques were applied to improve search engine rankings.",
+          "performanceOptimization": "Achieved a 92% Lighthouse rating by focusing on accessibility, best practices, and performance."
+        },
+        "challengesAndSolutions": "The primary challenge was working within a low budget while ensuring a professional look. This was addressed by leveraging free tools like Netlify for hosting and React.js for efficient static website development."
+      }
     }
   ],
   "projects": [
     {
       "id": 7,
       "link": "https://github.com/dlnicoz/DhirajContractor",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr14.webp",
+      "logo": "https://img.icons8.com/ios/50/geometry.png",
       "title": "DhirajContractor - react web",
       "time": "Jan 2024 - Feb 2024",
       "location": "Badlapur , Mumbai",
       "status": "away",
+      "type": "Self Employed - Full Time",
+      "images": [
+        {
+          "link": "placeholder.png",
+          "title": "Opening conference"
+        }
+      ],
       "details": {
-        "type": "Paid Project, Self Employed",
-        "period": "2 month",
-        "tecs": ["React", "Tailwindcss"]
+        "projectOverview": {
+          "name": "DhirajContractor",
+          "tagline": "Showcasing interior design and contracting expertise.",
+          "briefDescription": "A frontend React-based website created for an interior designer and contractor to showcase their portfolio, services, and legacy projects to build trust with potential customers.",
+          "projectLink": "https://github.com/dlnicoz/DhirajContractor"
+        },
+        "problemStatement": "New customers often struggle to trust contractors due to the high cost and risks associated with interior design and renovation projects.",
+        "solution": "Developed a website to showcase completed projects, services, and the client’s legacy. The site is visually appealing, informative, and includes features to ensure fast loading despite handling numerous high-quality images.",
+        "keyFeatures": [
+          "Portfolio showcasing completed interior design and renovation projects",
+          "Service details and legacy information to build trust",
+          "Image optimization with WebP format for faster loading",
+          "Lazy loading for efficient handling of numerous project images",
+          "Simple, fast, and user-friendly design"
+        ],
+        "technologiesUsed": {
+          "frontend": "React.js, CSS",
+          "imageOptimization": "WebP conversion, lazy loading",
+          "hosting": "Netlify (Free Tier)"
+        },
+        "methodologiesAndComplexImplementations": {
+          "imageOptimization": "Converted images to WebP format to reduce size without losing quality.",
+          "lazyLoading": "Implemented lazy loading to ensure smooth performance when displaying a large number of images.",
+          "responsiveDesign": "Ensured compatibility across devices with a mobile-first approach."
+        },
+        "challengesAndSolutions": "The main challenge was handling a large number of high-resolution images without compromising website speed. This was resolved by using lazy loading and optimizing images with WebP format to reduce file size while maintaining quality."
       }
     },
-
     {
       "id": 6,
       "link": "https://github.com/dlnicoz/Personal-React-Web",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr11.webp",
-      "title": "Portfolio  - react web",
-      "time": "Jul 2023- Aug 2023",
-      "location": "Badlapur , Mumbai",
+      "logo": "https://img.icons8.com/glyph-neue/64/laptop-coding.png",
+      "title": "Portfolio - React Web",
+      "time": "Jul 2023 - Aug 2023",
+      "location": "Badlapur, Mumbai",
       "status": "away",
+      "type": "Self project",
+      "images": [
+        {
+          "link": "https://images.unsplash.com/photo-1517433456452-f9633a875f6b?auto=format&fit=crop&w=1200&q=80",
+          "title": "Portfolio Homepage"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1532619187601-c6b53db7b7a7?auto=format&fit=crop&w=1200&q=80",
+          "title": "Project Showcase Section"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1556742041-3c52d6e88c62?auto=format&fit=crop&w=1200&q=80",
+          "title": "Responsive Design Preview"
+        }
+      ],
       "details": {
-        "type": "Self Employed, Self project",
-        "period": "2 month",
-        "tecs": ["React", "Netlify", "Bootstrap"]
-      }
-    },
-    {
-      "id": 1,
-      "link": "https://github.com/dlnicoz/SAANAVI",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr12.webp",
-      "title": "Saanvi hotel - react web",
-      "time": "Nov 2022 - Jan 2023",
-      "location": "Koparkhairane , Mumbai",
-      "status": "away",
-      "details": {
-        "type": "Self Employed, Paid project",
-        "period": "3 month",
-        "tecs": ["React", "Netlify", "Bootstrap"]
+        "projectOverview": {
+          "name": "Portfolio - React Web",
+          "tagline": "A personalized portfolio website for software engineers.",
+          "briefDescription": "This portfolio website is designed for software engineers to showcase their skills, projects, and professional journey. It is simple to configure and easily customizable via a single `config.json` file.",
+          "projectLink": "https://github.com/dlnicoz/Personal-React-Web"
+        },
+        "problemStatement": "Software engineers often need a portfolio website to showcase their skills and projects to potential employers or clients, but creating one from scratch can be time-consuming.",
+        "solution": "Developed a React-based portfolio website with a centralized configuration file (`config.json`) for easy customization. The website is responsive, visually appealing, and demonstrates a clean structure.",
+        "keyFeatures": [
+          "Centralized configuration with `config.json` for easy updates",
+          "Responsive design for all device sizes",
+          "Dynamic project showcase section",
+          "Simple and lightweight architecture using React and TailwindCSS",
+          "Hosted on Netlify with fast load times"
+        ],
+        "technologiesUsed": {
+          "frontend": "React.js, Bootstrap (initial), TailwindCSS (current)",
+          "stateManagement": "Props for passing data (no Redux or external state libraries used)",
+          "hosting": "Netlify (Free Tier)"
+        },
+        "methodologiesAndComplexImplementations": {
+          "configFile": "Used `config.json` to centralize project and personal data, making the website reusable and easy to update.",
+          "responsiveDesign": "Transitioned from Bootstrap to TailwindCSS for better customization and performance.",
+          "stateManagement": "Opted for props-based state management to keep the project lightweight and simple, avoiding Redux for such a small-scale application."
+        },
+        "challengesAndSolutions": "Initially, the challenge was learning and integrating TailwindCSS after starting with Bootstrap. The transition was managed smoothly by incrementally replacing Bootstrap components with TailwindCSS utilities."
       }
     },
     {
       "id": 2,
       "link": "https://github.com/dlnicoz/Interio",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr13.webp",
-      "title": "Interio - react web",
-      "time": "jun 2022 - jul 2022",
-      "location": "Koparkhairane , Mumbai",
+      "logo": "https://img.icons8.com/quill/50/drafting-compass2.png",
+      "title": "Interio - React Web",
+      "time": "Jun 2022 - Jul 2022",
+      "location": "Koparkhairane, Mumbai",
       "status": "away",
+      "type": "Solo work, College project",
+      "images": [
+        {
+          "link": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+          "title": "Homepage Design"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=1200&q=80",
+          "title": "Service Overview Section"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80",
+          "title": "Interactive UI Elements"
+        }
+      ],
       "details": {
-        "type": "Team work, College project",
-        "period": "1 month",
-        "tecs": ["React", "Netlify", "css"]
+        "projectOverview": {
+          "name": "Interio - React Web",
+          "tagline": "A frontend prototype for a community-based architecture service platform.",
+          "briefDescription": "Interio was envisioned as a platform to connect architects and clients, offering pre-designed layouts and communication tools for home and commercial projects. Although incomplete due to personal health challenges, it served as a learning experience in React and UI design.",
+          "projectLink": "https://github.com/dlnicoz/Interio"
+        },
+        "problemStatement": "Creating a centralized platform for architects and clients to collaborate and offer pre-designed layouts for various projects.",
+        "solution": "The project aimed to provide a community-driven website with interactive design elements to facilitate communication and service offerings similar to platforms like Livspace.",
+        "keyFeatures": [
+          "Interactive UI prototypes for a community-driven platform",
+          "Frontend design with modern CSS techniques",
+          "Responsive layouts for better user experience",
+          "Focus on learning React and improving design skills"
+        ],
+        "technologiesUsed": {
+          "frontend": "React.js",
+          "styling": "CSS",
+          "hosting": "Netlify (Free Tier)"
+        },
+        "methodologiesAndComplexImplementations": {
+          "frontendDesign": "Focused on creating an engaging and responsive UI using React and CSS.",
+          "learningProcess": "Used this project as a foundation for exploring React concepts and interactive design."
+        },
+        "challengesAndSolutions": "Due to personal health issues, the project was left incomplete. However, it provided a strong foundation in React and CSS, with plans to revisit and expand the project in the future."
       }
     },
     {
       "id": 3,
       "link": "https://github.com/dlnicoz/news-feed-app",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr14.webp",
-      "title": "News Feed - android app",
-      "time": "jan 2022 - mar 2022",
-      "location": "Wadala , Mumbai",
+      "logo": "https://img.icons8.com/comic/100/news.png",
+      "title": "News Feed - Android App",
+      "time": "Jan 2022 - Mar 2022",
+      "location": "Mumbai",
       "status": "away",
+      "type": "Android Studio, Team Work, College Project",
+      "images": [
+        {
+          "link": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80",
+          "title": "News Feed Homepage"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1529636468163-df9b10a5a0f3?auto=format&fit=crop&w=1200&q=80",
+          "title": "News Categories"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1505144808419-1957a94ca61c?auto=format&fit=crop&w=1200&q=80",
+          "title": "Integrated Webview"
+        }
+      ],
       "details": {
-        "type": "Android studio, Team work, College project",
-        "period": "1 month",
-        "tecs": ["React", "Netlify", "css"]
+        "projectOverview": {
+          "name": "News Feed - Android App",
+          "tagline": "A simple, scrollable news app fetching articles via NewsAPI.",
+          "briefDescription": "An Android app built to provide users with categorized news articles in a user-friendly interface, with features like Instagram-like scrolling and integrated webview for reading full articles.",
+          "projectLink": "https://github.com/dlnicoz/news-feed-app"
+        },
+        "problemStatement": "Provide a lightweight and categorized platform for users to access news articles without requiring a login.",
+        "solution": "The app fetches news articles from NewsAPI, displaying them in a scrollable feed. Users can read brief headlines and access full articles via an integrated webview.",
+        "keyFeatures": [
+          "Fetches news articles using NewsAPI",
+          "Categorized news sources for easy navigation",
+          "Instagram-like scrolling experience for a modern feel",
+          "Integrated webview for reading full articles within the app",
+          "No login required for seamless access"
+        ],
+        "technologiesUsed": {
+          "frontend": "Android Studio, XML",
+          "backend": "REST API (NewsAPI)",
+          "others": "Integrated webview for full-article reading"
+        },
+        "methodologiesAndComplexImplementations": {
+          "apiIntegration": "Implemented NewsAPI for fetching articles and metadata, such as headlines and categories.",
+          "scrollingExperience": "Designed an Instagram-like scrolling mechanism for a smooth user experience.",
+          "webviewIntegration": "Integrated a webview to allow users to read full articles directly within the app."
+        },
+        "challengesAndSolutions": "The project heavily relied on external resources like NewsAPI and pre-existing tutorials. However, we focused on creatively combining these resources to deliver a functional and visually appealing app. The challenge was in integrating these resources cohesively, which was achieved through effective teamwork and experimentation."
       }
     },
     {
       "id": 4,
       "link": "https://github.com/dlnicoz/emi-tax-electricity-bill-calculator",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr15.webp",
-      "title": "Emi calculator - android app",
+      "logo": "https://img.icons8.com/cotton/64/calculator--v1.png",
+      "title": "EMI Calculator - Android App",
       "time": "Jun 2021 - Aug 2021",
-      "location": "Wadala , Mumbai",
+      "location": "Wadala, Mumbai",
       "status": "away",
+      "type": "Android Studio, Team Work, College Project",
+      "images": [
+        {
+          "link": "https://images.unsplash.com/photo-1508779018996-47134fa9e5a7?auto=format&fit=crop&w=1200&q=80",
+          "title": "EMI Calculator UI"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1517430816045-df4b7de4c9bb?auto=format&fit=crop&w=1200&q=80",
+          "title": "Tax Calculation Interface"
+        },
+        {
+          "link": "https://images.unsplash.com/photo-1593642532871-8b12e02d091c?auto=format&fit=crop&w=1200&q=80",
+          "title": "Electricity Bill Calculator"
+        }
+      ],
       "details": {
-        "type": "Android studio, Team work, College project",
-        "period": "1 month",
-        "tecs": ["React", "Netlify", "css"]
-      }
-    },
-    {
-      "id": 5,
-      "link": "https://github.com/dlnicoz/nearlybiz",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/master/src/assets/pr16.webp",
-      "title": "NearlyBiz - php website",
-      "time": "Jan 2021 - Mar 2021",
-      "location": "Seawoods , Mumbai",
-      "status": "away",
-      "details": {
-        "type": "Intern",
-        "period": "3 month",
-        "tecs": ["PHP", "MySql", "Bootstrap"]
+        "projectOverview": {
+          "name": "EMI Calculator - Android App",
+          "tagline": "A multi-functional calculator app for EMI, tax, and electricity cost calculations.",
+          "briefDescription": "An Android app designed to provide three essential calculators: EMI, tax, and electricity bill estimations. It features an interactive UI with splash screens and seamless navigation between layouts.",
+          "projectLink": "https://github.com/dlnicoz/emi-tax-electricity-bill-calculator"
+        },
+        "problemStatement": "Provide a simple and efficient tool to calculate EMI, tax, and electricity costs with an intuitive interface.",
+        "solution": "The app offers three calculators in one platform with easy navigation and user-friendly design, simplifying complex calculations for users.",
+        "keyFeatures": [
+          "EMI calculator for loan repayment planning",
+          "Tax calculator for quick tax estimation",
+          "Electricity consumption and cost calculator for appliances",
+          "Interactive UI with constraint layouts and splash screens",
+          "Three distinct layouts connected seamlessly"
+        ],
+        "technologiesUsed": {
+          "frontend": "Android Studio, XML",
+          "backend": "Java",
+          "others": "Constraint Layout, View Containers"
+        },
+        "methodologiesAndComplexImplementations": {
+          "layoutDesign": "Implemented interactive layouts using Constraint Layouts for a responsive and clean design.",
+          "logicImplementation": "Used Java for the core calculation logic for EMI, tax, and electricity costs.",
+          "navigationFlow": "Designed a smooth flow between screens using splash screens and interlinked layouts."
+        },
+        "challengesAndSolutions": "As this was the first experience with Android app development, understanding the structure of XML and Java was challenging. The team overcame these challenges by experimenting with view containers and layouts, leading to the successful creation of a functional and visually appealing app."
       }
     }
   ],

@@ -8,8 +8,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'iori2';
+  src: url('fonts/JosefinSans-Italic-VariableFont_wght.ttf') format('ttf'),
+       url('fonts/JosefinSans-VariableFont_wght.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: "iori";
+  /* font-family: "iori"; */
 }
 
 .h6 * {
@@ -71,6 +79,18 @@ body {
   font-size: 3rem;
   color: #054e38;
   line-height: 1;
+}
+
+.aback {
+  font-size: 2rem;
+  color: #fd1056;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.aback:hover {
+  text-decoration: none;
+  color: #08fdd8;
 }
 
 a {

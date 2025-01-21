@@ -7,7 +7,7 @@ const Projects = (props) => {
 
 	return (
 		<div className='row experience'>
-			<div className='col-12 title' style={{ margin: '0px' }}>
+			<div className='col-12 title' style={{fontFamily:'iori', margin: '0px' }}>
 				Projects
 			</div>
 			<Divider size='medium'></Divider>

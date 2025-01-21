@@ -2,14 +2,14 @@ import React, { Fragment } from "react";
 import SkillItem from "./SkillItem";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "../../App.css";
+// import "../../App.css";
 
 const Skills = (props) => {
   const skills = props.skills;
 
   return (
     <div className="skills">
-      <div className="title">Skills</div>
+      <div className="title" style={{ fontFamily:'iori'}}>Skills</div>
       {skills.map((skill) => (
         <div className="row skills" key={skill.id}>
           <div

@@ -41,7 +41,7 @@ const ProjectItem = (props) => {
   const projects = props.projects;
 
   return (
-    <Link to={projects.link} className="link" target="_blank">
+    <Link to={`/projects/${projects.title}`} className="link" target="_blank">
       <div
         className="row"
         id={projects.title}
@@ -50,16 +50,16 @@ const ProjectItem = (props) => {
         <div className="col-lg-1 d-none d-lg-block">
           <img
             src={projects.logo}
-            className="img-fluid company-logo"
+            className="img-fluid company-logo align-middle inline" 
             alt={projects.title}
             style={{ borderRadius: "5px", width: "100%" }}
           ></img>
         </div>
         <div className="col-lg-11 col-sm-12" style={{ width: "100%" }}>
-          <h5 style={{ fontFamily: "iori" }}>{projects.title}</h5>
+          <h5 className="text-xl mb-2" style={{ fontFamily: "iori" }}>{projects.title}</h5>
         </div>
         <div className="col-sm-11 offset-sm-1">
-          <h6 style={{ fontFamily: "iori" }} className="showTime">
+          <h6 style={{ fontFamily: "iori" }} className="showTime mb-2">
             <span className="d-none d-lg-inline">{projects.location} / </span>
             {projects.time}{" "}
             <span className="d-none d-lg-inline">

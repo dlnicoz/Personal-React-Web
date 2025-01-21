@@ -15,9 +15,10 @@ const Intro = (props) => {
 
       <div className="h-100">
         <div className="sticky">
-          <div className="intro">
-            <h1>Hi,</h1>
-            <h1>
+          <div className="intro" 
+          style={{ fontFamily: "iori" }}>
+            <h1 className="mb-2">Hi,</h1>
+            <h1 className="mb-2">
               I'm{" "}
               <span style={{ color: "#FD1056" }}>
                 {info.name.split(" ")[0]}{" "}
