@@ -145,16 +145,32 @@
       "info": "Internship",
       "images": [
         {
-          "link": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80",
-          "title": "Development Environment"
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near1.PNG",
+          "title": ""
         },
         {
-          "link": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
-          "title": "Team Collaboration"
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near2.PNG",
+          "title": ""
         },
         {
-          "link": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-          "title": "Project Planning"
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near3.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near5.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near7.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near8.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near9.PNG",
+          "title": ""
         }
       ],
       "details": {
@@ -215,7 +231,7 @@
           "name": "Social Naka",
           "tagline": "A platform to showcase all your social links in a visually appealing way while enabling professional discovery.",
           "briefDescription": "Social Naka is a user-friendly platform allowing users to create free personal pages (like Linktree) and discover professionals and influencers through an integrated search feature. It solves the problem of managing and sharing multiple social links efficiently, especially for influencers and professionals.",
-          "projectLink": "https://github.com/dlnicoz/socialnaka"
+          "projectLink": "https://socialnak-a.netlify.app/"
         },
         "problemStatement": "Platforms like Linktree are not popular in India and lack features for discoverability, limiting opportunities for professionals to connect with clients or collaborators. Additionally, influencers often struggle with sharing multiple social links in their bios or posts.",
         "solution": "Social Naka provides users with customizable personal pages and a unique discoverability feature, enabling businesses and individuals to find and verify professionals easily. Influencers can now share a single page link containing all their social media links, simplifying the process.",
@@ -254,16 +270,32 @@
       "info": " Frontend Developer",
       "images": [
         {
-          "link": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1200&q=80",
-          "title": "Agrotourism Showcase"
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near1.PNG",
+          "title": ""
         },
         {
-          "link": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
-          "title": "Beautiful Nature Surroundings"
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near2.PNG",
+          "title": ""
         },
         {
-          "link": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=1200&q=80",
-          "title": "Hotel Services Display"
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near3.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near5.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near7.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near8.PNG",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near9.PNG",
+          "title": ""
         }
       ],
       "details": {
@@ -271,7 +303,7 @@
           "name": "Saanvi Hotel",
           "tagline": "A static website for showcasing agrotourism experiences.",
           "briefDescription": "Saanvi Hotel is a static website designed to showcase the natural beauty and services of an agrotourism hotel in Satara, Maharashtra. It provides a simple and user-friendly interface to attract customers.",
-          "projectLink": "https://github.com/dlnicoz/saanvi-hotel"
+          "projectLink": "https://hotelsaanvi.netlify.app/"
         },
         "problemStatement": "The client needed a low-budget, easy-to-use website to attract customers for their agrotourism hotel, given that many of their customers are not tech-savvy.",
         "solution": "A static website was developed using React.js, hosted on Netlify's free tier. The site includes photo galleries, service details, hotel pricing, and a direct WhatsApp contact option for customer convenience.",
