@@ -133,10 +133,166 @@
     }
   ],
   "experiences": [
+    
     {
       "id": 1,
+      "link": "https://github.com/dlnicoz/socialnaka",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/icons8-link.gif",
+      "title": "SocialNaka - Freelancing",
+      "time": "Sep 2024 - Dec 2024",
+      "location": "Remote",
+      "description": "Handled the complete development lifecycle of Social Naka, a platform for creating personal pages and enabling professional discovery.",
+      "status": "offline",
+      "info": "Full stack developer",
+      "images": [
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20home%20page.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20home%20another%20page.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20login%20page.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20signup%20page.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20dashboard%20page%20for%20creating%20social%20card.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20variety%20of%20themes%20and%20auto%20data%20fetches.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20sharable%20link%20for%20individuals%20.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20some%20preview%20social%20cards.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20explore%20page.png",
+          "title": ""
+        },{
+          "link":"https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20contact%20us%20page.png",
+          "title":""
+        }
+      ],
+      "details": {
+        "projectOverview": {
+          "name": "Social Naka",
+          "tagline": "A platform to showcase all your social links in a visually appealing way while enabling professional discovery.",
+          "briefDescription": "Social Naka is a user-friendly platform allowing users to create free personal pages (like Linktree) and discover professionals and influencers through an integrated search feature. It solves the problem of managing and sharing multiple social links efficiently, especially for influencers and professionals.",
+          "projectLink": "https://socialnak-a.netlify.app/"
+        },
+        "problemStatement": "Platforms like Linktree are not popular in India and lack features for discoverability, limiting opportunities for professionals to connect with clients or collaborators. Additionally, influencers often struggle with sharing multiple social links in their bios or posts.",
+        "solution": "Social Naka provides users with customizable personal pages and a unique discoverability feature, enabling businesses and individuals to find and verify professionals easily. Influencers can now share a single page link containing all their social media links, simplifying the process.",
+        "keyFeatures": [
+          "Create free personal pages with unique URLs",
+          "Integrated search functionality for professional discovery",
+          "Toggle between private and public visibility",
+          "Display all social media links for credibility",
+          "Responsive design for seamless access across devices"
+        ],
+        "technologiesUsed": {
+          "frontend": "React.js, Tailwind CSS",
+          "backend": "Node.js, Express.js",
+          "database": "MongoDB (Atlas)",
+          "others": "JWT tokens for authentication, REST API for communication"
+        },
+        "methodologiesAndComplexImplementations": {
+          "restAPI": "APIs were designed for efficient CRUD operations and seamless communication between the frontend and backend.",
+          "jwtTokens": "Secure user authentication and session management were implemented using JWT tokens.",
+          "searchAlgorithm": "Custom logic to enable efficient searching and filtering of professionals by categories and keywords.",
+          "userProfileCustomization": "Dynamic themes and profile customization features with real-time updates.",
+          "performanceOptimization": "Lazy loading and caching techniques were used to improve performance, especially for the search feature."
+        },
+        "challengesAndSolutions": "Key challenges included optimizing the search feature for fast and accurate results, addressed through efficient indexing and caching mechanisms. Limited funding meant relying on free-tier services like Netlify for hosting, MongoDB Atlas for the database, and Railway for the backend. The limitation of not being able to upload profile images was managed by using URL-based profile pictures, ensuring a cost-effective yet functional solution. Responsive design and rigorous testing ensured a seamless user experience across devices."
+      }
+    },
+    {
+      "id": 2,
+      "link": "https://github.com/dlnicoz/saanvi-hotel",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/icons8-sun-lounger.gif",
+      "title": "Saanvi Hotel - Freelance",
+      "time": "Jan 2023 - Remote",
+      "location": "Satara, Maharashtra (Remote)",
+      "description": "Freelancing Project",
+      "status": "offline",
+      "info": " Frontend Developer",
+      "images": [
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/hotel/saanvihotel%201.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/hotel/saanvihotel%202.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/hotel/saanvihotel%203.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/hotel/saanvihotel%204.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/hotel/saanvihotel%205.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/hotel/saanvihotel%206.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/hotel/saanvihotel%207.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/hotel/saanvihotel%208.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/hotel/saanvihotel%209.png",
+          "title": ""
+        }
+      ],
+      "details": {
+        "projectOverview": {
+          "name": "Saanvi Hotel",
+          "tagline": "A static website for showcasing agrotourism experiences.",
+          "briefDescription": "Saanvi Hotel is a static website designed to showcase the natural beauty and services of an agrotourism hotel in Satara, Maharashtra. It provides a simple and user-friendly interface to attract customers.",
+          "projectLink": "https://hotelsaanvi.netlify.app/"
+        },
+        "problemStatement": "The client needed a low-budget, easy-to-use website to attract customers for their agrotourism hotel, given that many of their customers are not tech-savvy.",
+        "solution": "A static website was developed using React.js, hosted on Netlify's free tier. The site includes photo galleries, service details, hotel pricing, and a direct WhatsApp contact option for customer convenience.",
+        "keyFeatures": [
+          "Photo gallery with 40-50 images showcasing nature and hotel surroundings",
+          "Details of hotel services and pricing",
+          "WhatsApp integration for direct customer communication",
+          "SEO optimization for better visibility",
+          "Lightweight design for faster loading on all devices"
+        ],
+        "technologiesUsed": {
+          "frontend": "React.js, CSS",
+          "hosting": "Netlify (Free Tier)",
+          "tools": "Lighthouse for performance analysis, SEO for visibility"
+        },
+        "methodologiesAndComplexImplementations": {
+          "photoGallery": "Implemented a responsive and lightweight gallery to display high-quality images.",
+          "whatsappIntegration": "Added a clickable WhatsApp link for easy customer contact.",
+          "seoOptimization": "Basic SEO techniques were applied to improve search engine rankings.",
+          "performanceOptimization": "Achieved a 92% Lighthouse rating by focusing on accessibility, best practices, and performance."
+        },
+        "challengesAndSolutions": "The primary challenge was working within a low budget while ensuring a professional look. This was addressed by leveraging free tools like Netlify for hosting and React.js for efficient static website development."
+      }
+    },
+    {
+      "id": 3,
       "link": "https://github.com/dlnicoz/nearlybiz",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/feature/more-detail/src/assets/icons8-card.gif",
+      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/icons8-card.gif",
       "title": "Team Leader - Hertzsoft",
       "time": "Jun 2021 - Offline",
       "location": "Seawoods, Navi Mumbai",
@@ -200,132 +356,6 @@
           "businessCardFeature": "Developed a feature to create and display business cards for shops."
         },
         "challengesAndSolutions": "The project faced significant interruptions due to the COVID-19 pandemic, leading to a reduced scope. Despite this, the registration, login, and business card creation features were completed successfully, marking a significant achievement as my first coding experience."
-      }
-    },
-    {
-      "id": 2,
-      "link": "https://github.com/dlnicoz/socialnaka",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/feature/more-detail/src/assets/icons8-link.gif",
-      "title": "SocialNaka - Freelancing",
-      "time": "Sep 2024 - Dec 2024",
-      "location": "Remote",
-      "description": "Handled the complete development lifecycle of Social Naka, a platform for creating personal pages and enabling professional discovery.",
-      "status": "offline",
-      "info": "Full stack developer",
-      "images": [
-        {
-          "link": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80",
-          "title": "Development Environment"
-        },
-        {
-          "link": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
-          "title": "User Interface Design"
-        },
-        {
-          "link": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-          "title": "Project Planning and Collaboration"
-        }
-      ],
-      "details": {
-        "projectOverview": {
-          "name": "Social Naka",
-          "tagline": "A platform to showcase all your social links in a visually appealing way while enabling professional discovery.",
-          "briefDescription": "Social Naka is a user-friendly platform allowing users to create free personal pages (like Linktree) and discover professionals and influencers through an integrated search feature. It solves the problem of managing and sharing multiple social links efficiently, especially for influencers and professionals.",
-          "projectLink": "https://socialnak-a.netlify.app/"
-        },
-        "problemStatement": "Platforms like Linktree are not popular in India and lack features for discoverability, limiting opportunities for professionals to connect with clients or collaborators. Additionally, influencers often struggle with sharing multiple social links in their bios or posts.",
-        "solution": "Social Naka provides users with customizable personal pages and a unique discoverability feature, enabling businesses and individuals to find and verify professionals easily. Influencers can now share a single page link containing all their social media links, simplifying the process.",
-        "keyFeatures": [
-          "Create free personal pages with unique URLs",
-          "Integrated search functionality for professional discovery",
-          "Toggle between private and public visibility",
-          "Display all social media links for credibility",
-          "Responsive design for seamless access across devices"
-        ],
-        "technologiesUsed": {
-          "frontend": "React.js, Tailwind CSS",
-          "backend": "Node.js, Express.js",
-          "database": "MongoDB (Atlas)",
-          "others": "JWT tokens for authentication, REST API for communication"
-        },
-        "methodologiesAndComplexImplementations": {
-          "restAPI": "APIs were designed for efficient CRUD operations and seamless communication between the frontend and backend.",
-          "jwtTokens": "Secure user authentication and session management were implemented using JWT tokens.",
-          "searchAlgorithm": "Custom logic to enable efficient searching and filtering of professionals by categories and keywords.",
-          "userProfileCustomization": "Dynamic themes and profile customization features with real-time updates.",
-          "performanceOptimization": "Lazy loading and caching techniques were used to improve performance, especially for the search feature."
-        },
-        "challengesAndSolutions": "Key challenges included optimizing the search feature for fast and accurate results, addressed through efficient indexing and caching mechanisms. Limited funding meant relying on free-tier services like Netlify for hosting, MongoDB Atlas for the database, and Railway for the backend. The limitation of not being able to upload profile images was managed by using URL-based profile pictures, ensuring a cost-effective yet functional solution. Responsive design and rigorous testing ensured a seamless user experience across devices."
-      }
-    },
-    {
-      "id": 2,
-      "link": "https://github.com/dlnicoz/saanvi-hotel",
-      "logo": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/feature/more-detail/src/assets/icons8-sun-lounger.gif",
-      "title": "Saanvi Hotel - Freelance",
-      "time": "Jan 2023 - Remote",
-      "location": "Satara, Maharashtra (Remote)",
-      "description": "Freelancing Project",
-      "status": "offline",
-      "info": " Frontend Developer",
-      "images": [
-        {
-          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near1.PNG",
-          "title": ""
-        },
-        {
-          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near2.PNG",
-          "title": ""
-        },
-        {
-          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near3.PNG",
-          "title": ""
-        },
-        {
-          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near5.PNG",
-          "title": ""
-        },
-        {
-          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near7.PNG",
-          "title": ""
-        },
-        {
-          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near8.PNG",
-          "title": ""
-        },
-        {
-          "link": "https://raw.githubusercontent.com/dlnicoz/nearlybiz/refs/heads/master/images/near9.PNG",
-          "title": ""
-        }
-      ],
-      "details": {
-        "projectOverview": {
-          "name": "Saanvi Hotel",
-          "tagline": "A static website for showcasing agrotourism experiences.",
-          "briefDescription": "Saanvi Hotel is a static website designed to showcase the natural beauty and services of an agrotourism hotel in Satara, Maharashtra. It provides a simple and user-friendly interface to attract customers.",
-          "projectLink": "https://hotelsaanvi.netlify.app/"
-        },
-        "problemStatement": "The client needed a low-budget, easy-to-use website to attract customers for their agrotourism hotel, given that many of their customers are not tech-savvy.",
-        "solution": "A static website was developed using React.js, hosted on Netlify's free tier. The site includes photo galleries, service details, hotel pricing, and a direct WhatsApp contact option for customer convenience.",
-        "keyFeatures": [
-          "Photo gallery with 40-50 images showcasing nature and hotel surroundings",
-          "Details of hotel services and pricing",
-          "WhatsApp integration for direct customer communication",
-          "SEO optimization for better visibility",
-          "Lightweight design for faster loading on all devices"
-        ],
-        "technologiesUsed": {
-          "frontend": "React.js, CSS",
-          "hosting": "Netlify (Free Tier)",
-          "tools": "Lighthouse for performance analysis, SEO for visibility"
-        },
-        "methodologiesAndComplexImplementations": {
-          "photoGallery": "Implemented a responsive and lightweight gallery to display high-quality images.",
-          "whatsappIntegration": "Added a clickable WhatsApp link for easy customer contact.",
-          "seoOptimization": "Basic SEO techniques were applied to improve search engine rankings.",
-          "performanceOptimization": "Achieved a 92% Lighthouse rating by focusing on accessibility, best practices, and performance."
-        },
-        "challengesAndSolutions": "The primary challenge was working within a low budget while ensuring a professional look. This was addressed by leveraging free tools like Netlify for hosting and React.js for efficient static website development."
       }
     }
   ],
