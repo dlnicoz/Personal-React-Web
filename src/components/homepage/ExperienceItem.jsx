@@ -7,8 +7,7 @@ import {
   faImages,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";  // Import motion from framer-motion
-
+import { motion } from "framer-motion";
 function renderSwitch(status) {
   switch (status) {
     case "online":
@@ -42,7 +41,7 @@ const ExperienceItem = (props) => {
   const experience = props.experience;
 
   return (
-    <Link to={`/experience/${experience.title}`} className="link" target="_blank">
+    <Link to={`/experience/${experience.title}`} className="link">
       <motion.div
         className="row"
         id={experience.title}
