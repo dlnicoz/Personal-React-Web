@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Divider from "../layout/Divider";
 import About from "./About";
+import { motion } from "framer-motion"
 
 const Intro = (props) => {
   const info = props.info;
@@ -15,8 +16,11 @@ const Intro = (props) => {
 
       <div className="h-100">
         <div className="sticky">
-          <div className="intro" 
-          style={{ fontFamily: "iori" }}>
+          <motion.div className="intro"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 , delay:0.1 }}
+            style={{ fontFamily: "iori" }}>
             <h1 className="mb-2">Hi,</h1>
             <h1 className="mb-2">
               I'm{" "}
@@ -31,9 +35,12 @@ const Intro = (props) => {
               ,
             </h1>
             <h1>{info.jobTitle}</h1>
-          </div>
+          </motion.div>
           <div>
-            <div
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
               className="description"
               style={{ fontFamily: "iori", marginTop: "20px" }}
             >
@@ -56,7 +63,7 @@ const Intro = (props) => {
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-            </div>
+            </motion.div>
           </div>
           <Divider size="large" />
           <About about={info.about} />

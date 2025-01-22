@@ -7,6 +7,7 @@ import {
   faImages,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";  // Import motion from framer-motion
 
 function renderSwitch(status) {
   switch (status) {
@@ -42,10 +43,13 @@ const ProjectItem = (props) => {
 
   return (
     <Link to={`/projects/${projects.title}`} className="link" target="_blank">
-      <div
+      <motion.div
         className="row"
         id={projects.title}
         style={{ margin: "0px", padding: "0px" }}
+        initial={{ opacity: 0, y: 20 }}  // Initial state for animation
+        whileInView={{ opacity: 1, y: 0 }}  // Animate to visible position
+        transition={{ duration: 0.6, delay: 0.2 }}  // Transition properties
       >
         <div className="col-lg-1 d-none d-lg-block">
           <img
@@ -56,7 +60,15 @@ const ProjectItem = (props) => {
           ></img>
         </div>
         <div className="col-lg-11 col-sm-12" style={{ width: "100%" }}>
-          <h5 className="text-xl mb-2" style={{ fontFamily: "iori" }}>{projects.title}</h5>
+          <motion.h5
+            className="text-xl mb-2"
+            style={{ fontFamily: "iori" }}
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            {projects.title}
+          </motion.h5>
         </div>
         <div className="col-sm-11 offset-sm-1">
           <h6 style={{ fontFamily: "iori" }} className="showTime mb-2">
@@ -77,7 +89,7 @@ const ProjectItem = (props) => {
         >
           {renderSwitch(projects.status)}{" "}
         </div>
-      </div>
+      </motion.div>
     </Link>
   );
 };

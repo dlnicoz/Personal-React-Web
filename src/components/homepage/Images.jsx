@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from "react";
-import styled from "styled-components";
+import { motion } from "framer-motion";
 import profile from "../../assets/mainprofile.webp";
 import profile1 from "../../assets/profile1.webp";
 import profile2 from "../../assets/profile2.webp";
@@ -23,37 +23,31 @@ const Images = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % gallery.length);
   };
 
-  // Styled Component for smooth image transitions
-  const MypicDiv = styled.div`
-    background-image: url("${gallery[currentImageIndex]}");
-    background-color: #0d1117;
-    background-size: cover;
-    background-position: center;
-    width: 450px;
-    height: 450px;
-    margin-bottom: 50px;
-    margin-top: 60px;
-    border-radius: 15px;
-    opacity: 0;
-    animation: fadeIn 0.5s forwards; // Fade in effect
-    transition: opacity 0.5s ease-in-out; // Smooth transition for opacity
-
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-      }
-    }
-  `;
-
   return (
     <Fragment>
-      <MypicDiv
+      <motion.div
         className="d-none d-lg-block left-big-image"
         id="mypicDiv"
         onClick={handleClick} // Change image on click
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        whileHover={{ scale: 1.05 }}
+        transition={{ type: "spring", stiffness: 300 }}
+        style={{
+          backgroundImage: `url(${gallery[currentImageIndex]})`,
+          backgroundColor: "#0d1117",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          width: "450px",
+          height: "450px",
+          marginBottom: "50px",
+          marginTop: "60px",
+          borderRadius: "15px",
+          cursor: "pointer",
+        }}
       >
         <div id="overlay"></div>
-      </MypicDiv>
+      </motion.div>
     </Fragment>
   );
 };
