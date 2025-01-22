@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const SlideText = ({ children, delay = 0 }) => {
   return (
-    <div className="relative  inline-block">
+    <div className="relative inline-block">
       <motion.div
         initial={{ y: "100%" }}
         whileInView={{ y: 0 }}
@@ -38,6 +38,10 @@ const SlideText = ({ children, delay = 0 }) => {
 const Intro = (props) => {
   const info = props.info;
   const contact = props.contact;
+  
+  const [firstName, lastName] = info.name.split(" ");
+  const lastNameFirstTwo = lastName.substring(0, 2);
+  const lastNameRest = lastName.substring(2);
 
   return (
     <div className="h-100">
@@ -49,24 +53,24 @@ const Intro = (props) => {
             <h1 className="mb-2">
               <SlideText delay={0}>Hi,</SlideText>
             </h1>
-            <h1 className="mb-2">
-              <SlideText delay={0.1}>I'm{" "}</SlideText>{" "}
-              <span style={{ color: "#FD1056" }}>
-                <SlideText delay={0.2}>
-                  {info.name.split(" ")[0]}{" "}
-                  {info.name.split(" ")[1].substring(0, 2)}
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-0 sm:gap-2">
+              <h1 className="mb-2 flex items-center">
+                <SlideText delay={0.1}>I'm{" "}</SlideText>{" "}
+                <span style={{ color: "#FD1056" }} className="ml-2">
+                  <SlideText delay={0.2}>
+                    {firstName}
+                  </SlideText>
+                </span>
+              </h1>
+              <h1 className="mb-2">
+                <SlideText delay={0.3}>
+                  <span style={{ color: "#FD1056" }}>{lastNameFirstTwo}</span>
+                  {lastNameRest},
                 </SlideText>
-              </span>
-              <SlideText delay={0.3}>
-                {info.name.substring(
-                  info.name.split(" ")[0].length + 3,
-                  info.name.length
-                )}
-                ,
-              </SlideText>
-            </h1>
+              </h1>
+            </div>
             <h1>
-              <SlideText delay={0.4}>{info.jobTitle}</SlideText>
+              <SlideText delay={0.5}>{info.jobTitle}</SlideText>
             </h1>
           </div>
           <div>
@@ -86,6 +90,7 @@ const Intro = (props) => {
                 href={"http://github.com/" + contact.github}
                 style={{ marginRight: "8px" }}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
@@ -93,6 +98,7 @@ const Intro = (props) => {
                 className="link"
                 href={"http://linkedin.com/" + contact.linkedin}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
