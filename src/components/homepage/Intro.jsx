@@ -38,7 +38,7 @@ const SlideText = ({ children, delay = 0 }) => {
 const Intro = (props) => {
   const info = props.info;
   const contact = props.contact;
-  
+
   const [firstName, lastName] = info.name.split(" ");
   const lastNameFirstTwo = lastName.substring(0, 2);
   const lastNameRest = lastName.substring(2);
@@ -64,7 +64,9 @@ const Intro = (props) => {
               </h1>
               <h1 className="mb-2">
                 <SlideText delay={0.3}>
-                  <span style={{ color: "#FD1056" }}>{lastNameFirstTwo}</span>
+                {/* <span style={{ color: "#FD1056" }}>{lastNameFirstTwo}</span> */}
+
+                  <span>{lastNameFirstTwo}</span>
                   {lastNameRest},
                 </SlideText>
               </h1>
@@ -78,12 +80,24 @@ const Intro = (props) => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.8 }}
-              className="description"
+              className="description !mt-8"
               style={{ fontFamily: "iori", marginTop: "20px" }}
             >
-              {contact.mobile}
-              <br></br>
-              {contact.email}
+              <div className="text-2xl mb-1 flex items-center gap-1.5" style={{ color: "#FD1056" }}>
+                <img
+                  src="https://img.icons8.com/sf-black/64/phone.png"
+                  alt="Phone Icon"
+                  style={{ width: "30px", height: "30px" }}
+                />
+                {contact.mobile}
+              </div>
+              <div className="text-2xl ml-1  flex items-center gap-1.5">
+                <img
+                  src="https://img.icons8.com/ios-filled/100/mail.png"
+                  alt="Phone Icon"
+                  style={{ width: "28px", height: "28px" }}
+                />
+                {contact.email}</div>
               <br></br>
               <a
                 className="link"
