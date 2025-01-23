@@ -7,8 +7,7 @@ import {
   faImages,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";  // Import motion from framer-motion
-
+import { motion } from "framer-motion";  
 function renderSwitch(status) {
   switch (status) {
     case "online":
@@ -54,7 +53,7 @@ const ProjectItem = (props) => {
         <div className="col-lg-1 d-none d-lg-block">
           <img
             src={projects.logo}
-            className="img-fluid company-logo align-middle inline" 
+            className="img-fluid company-logo align-middle inline"
             alt={projects.title}
             style={{ borderRadius: "5px", width: "100%" }}
           ></img>
@@ -88,6 +87,11 @@ const ProjectItem = (props) => {
           }}
         >
           {renderSwitch(projects.status)}{" "}
+          {projects.images !== undefined ? (
+            <Fragment>
+              <FontAwesomeIcon icon={faImages} /> {projects.images.length}{" "}
+            </Fragment>
+          ) : null}
         </div>
       </motion.div>
     </Link>
