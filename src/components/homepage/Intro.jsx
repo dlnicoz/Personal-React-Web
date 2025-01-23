@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Images from "./Images";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Copy, CheckCheck, Phone, Mail } from "lucide-react";
 import Divider from "../layout/Divider";
 import About from "./About";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const SlideText = ({ children, delay = 0 }) => {
   return (
@@ -35,10 +36,75 @@ const SlideText = ({ children, delay = 0 }) => {
   );
 };
 
+const ContactItem = ({ value, label, icon: Icon }) => {
+  const [isHovered, setIsHovered] = useState(false);
+  const [isCopied, setIsCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(value);
+    setIsCopied(true);
+    setTimeout(() => setIsCopied(false), 2000);
+  };
+
+  return (
+    <div className="relative inline-block ">
+      <motion.div
+        className="flex items-center gap-3 cursor-pointer group text-2xl"
+        onHoverStart={() => setIsHovered(true)}
+        onHoverEnd={() => setIsHovered(false)}
+        onClick={handleCopy}
+        whileHover={{ scale: 1.02 }}
+        transition={{ type: "spring", stiffness: 400, damping: 20 }}
+      >
+        <Icon size={24} className="text-gray-600 group-hover:text-[#FD1056] transition-colors duration-200" />
+        <span className="group-hover:text-[#FD1056] transition-colors duration-200">
+          {value}
+        </span>
+        {isCopied ? (
+          <CheckCheck size={20} className="text-green-500" />
+        ) : (
+          <Copy size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+        )}
+      </motion.div>
+      
+      <AnimatePresence>
+        {isHovered && !isCopied && (
+          <motion.div
+            initial={{ opacity: 0, y: -20, scale: 0.8 }}
+            animate={{ 
+              opacity: 1, 
+              y: 8, 
+              scale: 1,
+              transition: {
+                type: "spring",
+                stiffness: 500,
+                damping: 15,
+                mass: 0.8
+              }
+            }}
+            exit={{ 
+              opacity: 0,
+              y: -10,
+              scale: 0.9,
+              transition: {
+                duration: 0.2
+              }
+            }}
+            className="absolute left-0 top-full bg-black text-white text-xs py-1.5 px-3 rounded whitespace-nowrap z-10"
+          >
+            Click to copy {label}
+            <div className="absolute -top-1 left-6 w-2 h-2 bg-black transform rotate-45" />
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+};
+
 const Intro = (props) => {
   const info = props.info;
   const contact = props.contact;
-
+  
   const [firstName, lastName] = info.name.split(" ");
   const lastNameFirstTwo = lastName.substring(0, 2);
   const lastNameRest = lastName.substring(2);
@@ -64,9 +130,7 @@ const Intro = (props) => {
               </h1>
               <h1 className="mb-2">
                 <SlideText delay={0.3}>
-                {/* <span style={{ color: "#FD1056" }}>{lastNameFirstTwo}</span> */}
-
-                  <span>{lastNameFirstTwo}</span>
+                  <span style={{ color: "#FD1056" }}>{lastNameFirstTwo}</span>
                   {lastNameRest},
                 </SlideText>
               </h1>
@@ -80,42 +144,35 @@ const Intro = (props) => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.8 }}
-              className="description !mt-8"
-              style={{ fontFamily: "iori", marginTop: "20px" }}
+              className="description mt-8"
+              style={{ fontFamily: "iori" }}
             >
-              <div className="text-2xl mb-1 flex items-center gap-1.5" style={{ color: "#FD1056" }}>
-                <img
-                  src="https://img.icons8.com/sf-black/64/phone.png"
-                  alt="Phone Icon"
-                  style={{ width: "30px", height: "30px" }}
-                />
-                {contact.mobile}
+              <div className="flex flex-col gap-2">
+                <ContactItem value={contact.mobile} label="phone number" icon={Phone} />
+                <ContactItem value={contact.email} label="email address" icon={Mail} />
+                <div className="flex gap-2 mt-4">
+                  <motion.a
+                    className="link"
+                    href={"http://github.com/" + contact.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <FontAwesomeIcon icon={faGithub} size="lg" />
+                  </motion.a>
+                  <motion.a
+                    className="link"
+                    href={contact.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} size="lg" />
+                  </motion.a>
+                </div>
               </div>
-              <div className="text-2xl ml-1  flex items-center gap-1.5">
-                <img
-                  src="https://img.icons8.com/ios-filled/100/mail.png"
-                  alt="Phone Icon"
-                  style={{ width: "28px", height: "28px" }}
-                />
-                {contact.email}</div>
-              <br></br>
-              <a
-                className="link"
-                href={"http://github.com/" + contact.github}
-                style={{ marginRight: "8px" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-              <a
-                className="link"
-                href={"http://linkedin.com/" + contact.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
             </motion.div>
           </div>
           <Divider size="large" />
