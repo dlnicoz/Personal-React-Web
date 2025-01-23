@@ -49,7 +49,7 @@ const ContactItem = ({ value, label, icon: Icon }) => {
   return (
     <div className="relative inline-block ">
       <motion.div
-        className="flex items-center gap-3 cursor-pointer group text-2xl"
+        className="flex items-center gap-3 cursor-pointer group text-xl"
         onHoverStart={() => setIsHovered(true)}
         onHoverEnd={() => setIsHovered(false)}
         onClick={handleCopy}
