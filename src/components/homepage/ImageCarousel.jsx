@@ -34,7 +34,7 @@ export function ImageCarousel({ images }) {
           <img
             src={images[currentIndex].link}
             alt={images[currentIndex].title}
-            className="w-full h-full object-cover transition-opacity duration-500"
+            className="w-full h-full object-contain transition-opacity duration-500"
           />
         </div>
         
