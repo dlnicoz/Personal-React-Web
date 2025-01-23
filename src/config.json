@@ -380,7 +380,7 @@
           "name": "DhirajContractor",
           "tagline": "Showcasing interior design and contracting expertise.",
           "briefDescription": "A frontend React-based website created for an interior designer and contractor to showcase their portfolio, services, and legacy projects to build trust with potential customers.",
-          "projectLink": "https://github.com/dlnicoz/DhirajContractor"
+          "projectLink": "https://dhirajcontracto.netlify.app/"
         },
         "problemStatement": "New customers often struggle to trust contractors due to the high cost and risks associated with interior design and renovation projects.",
         "solution": "Developed a website to showcase completed projects, services, and the client’s legacy. The site is visually appealing, informative, and includes features to ensure fast loading despite handling numerous high-quality images.",
@@ -432,7 +432,7 @@
           "name": "Portfolio - React Web",
           "tagline": "A personalized portfolio website for software engineers.",
           "briefDescription": "This portfolio website is designed for software engineers to showcase their skills, projects, and professional journey. It is simple to configure and easily customizable via a single `config.json` file.",
-          "projectLink": "https://github.com/dlnicoz/Personal-React-Web"
+          "projectLink": "https://adheera.netlify.app/"
         },
         "problemStatement": "Software engineers often need a portfolio website to showcase their skills and projects to potential employers or clients, but creating one from scratch can be time-consuming.",
         "solution": "Developed a React-based portfolio website with a centralized configuration file (`config.json`) for easy customization. The website is responsive, visually appealing, and demonstrates a clean structure.",
@@ -467,16 +467,30 @@
       "type": "Solo work, College project",
       "images": [
         {
-          "link": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
-          "title": "Homepage Design"
+          "link": "https://raw.githubusercontent.com/dlnicoz/Interio/refs/heads/master/screenshots/Screenshot_20220429_192514.png",
+          "title": ""
         },
         {
-          "link": "https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=1200&q=80",
-          "title": "Service Overview Section"
-        },
-        {
-          "link": "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80",
-          "title": "Interactive UI Elements"
+          "link": "https://raw.githubusercontent.com/dlnicoz/Interio/refs/heads/master/screenshots/Screenshot_20220429_192518.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Interio/refs/heads/master/screenshots/Screenshot_20220429_192509.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Interio/refs/heads/master/screenshots/Screenshot_20220429_192503.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Interio/refs/heads/master/screenshots/Screenshot_20220429_192454.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Interio/refs/heads/master/screenshots/Screenshot_20220429_192447.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Interio/refs/heads/master/screenshots/Screenshot_20220429_192441.png",
+          "title": ""
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Interio/refs/heads/master/screenshots/Screenshot_20220429_192432.png",
+          "title": ""
         }
       ],
       "details": {
@@ -569,16 +583,23 @@
       "type": "Android Studio, Team Work, College Project",
       "images": [
         {
-          "link": "https://images.unsplash.com/photo-1508779018996-47134fa9e5a7?auto=format&fit=crop&w=1200&q=80",
-          "title": "EMI Calculator UI"
+          "link": "https://raw.githubusercontent.com/iori92/emi-tax-electricity-bill-calculator/refs/heads/master/screenshot/WhatsApp%20Image%202021-06-03%20at%203.13.31%20AM.jpeg",
+          "title": "Splash Screen"
         },
         {
-          "link": "https://images.unsplash.com/photo-1517430816045-df4b7de4c9bb?auto=format&fit=crop&w=1200&q=80",
-          "title": "Tax Calculation Interface"
+          "link": "https://raw.githubusercontent.com/iori92/emi-tax-electricity-bill-calculator/refs/heads/master/screenshot/WhatsApp%20Image%202021-06-04%20at%201.08.21%20AM.jpeg",
+          "title": "Main Interface"
         },
         {
-          "link": "https://images.unsplash.com/photo-1593642532871-8b12e02d091c?auto=format&fit=crop&w=1200&q=80",
+          "link": "https://raw.githubusercontent.com/iori92/emi-tax-electricity-bill-calculator/refs/heads/master/screenshot/WhatsApp%20Image%202021-06-04%20at%201.08.21%20AM(1).jpeg",
           "title": "Electricity Bill Calculator"
+        },
+        {
+          "link": "https://raw.githubusercontent.com/iori92/emi-tax-electricity-bill-calculator/refs/heads/master/screenshot/WhatsApp%20Image%202021-06-04%20at%201.08.21%20AM(2).jpeg",
+          "title": "EMI Calculator"
+        },{
+          "link": "https://raw.githubusercontent.com/iori92/emi-tax-electricity-bill-calculator/refs/heads/master/screenshot/WhatsApp%20Image%202021-06-04%20at%201.08.21%20AM(3).jpeg",
+          "title": "Tax Calculator"
         }
       ],
       "details": {
