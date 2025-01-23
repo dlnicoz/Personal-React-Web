@@ -147,36 +147,36 @@
       "images": [
         {
           "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20home%20page.png",
-          "title": ""
+          "title": "SocialNaka homepage"
         },
         {
           "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20home%20another%20page.png",
-          "title": ""
+          "title": "Another hero page"
         },
         {
           "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20login%20page.png",
-          "title": ""
+          "title": "Login page"
         },{
           "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20signup%20page.png",
-          "title": ""
+          "title": "Register page"
         },{
           "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20dashboard%20page%20for%20creating%20social%20card.png",
-          "title": ""
+          "title": "Dashboard page for creating social card"
         },{
           "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20variety%20of%20themes%20and%20auto%20data%20fetches.png",
-          "title": ""
+          "title": "Auto fetches data if already present"
         },{
           "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20sharable%20link%20for%20individuals%20.png",
-          "title": ""
+          "title": "Sharable link page can be used in bio"
         },{
           "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20some%20preview%20social%20cards.png",
-          "title": ""
+          "title": "Some featured social cards"
         },{
           "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20explore%20page.png",
-          "title": ""
+          "title": "Explore page to find someone"
         },{
           "link":"https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/socialnaka/socialnaka%20contact%20us%20page.png",
-          "title":""
+          "title":"Contact us page"
         }
       ],
       "details": {
@@ -371,9 +371,26 @@
       "type": "Self Employed - Full Time",
       "images": [
         {
-          "link": "placeholder.png",
-          "title": "Opening conference"
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/DhirajContractor/image1.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/DhirajContractor/image2.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/DhirajContractor/image31.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/DhirajContractor/image3.png",
+          "title": ""
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/DhirajContractor/image4.png",
+          "title": ""
         }
+
       ],
       "details": {
         "projectOverview": {
@@ -415,16 +432,25 @@
       "type": "Self project",
       "images": [
         {
-          "link": "https://images.unsplash.com/photo-1517433456452-f9633a875f6b?auto=format&fit=crop&w=1200&q=80",
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/CurrentWeb/image1.png",
           "title": "Portfolio Homepage"
         },
         {
-          "link": "https://images.unsplash.com/photo-1532619187601-c6b53db7b7a7?auto=format&fit=crop&w=1200&q=80",
-          "title": "Project Showcase Section"
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/CurrentWeb/image2.png",
+          "title": "Projects"
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/CurrentWeb/image3.png",
+          "title": "Skills"
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/CurrentWeb/image4.png",
+          "title": "Downloadable Resume"
+        },{
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/CurrentWeb/image5.png",
+          "title": "Detail view of Experience"
         },
-        {
-          "link": "https://images.unsplash.com/photo-1556742041-3c52d6e88c62?auto=format&fit=crop&w=1200&q=80",
-          "title": "Responsive Design Preview"
+      {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/CurrentWeb/image6.png",
+          "title": "More detail of Experience"
         }
       ],
       "details": {
@@ -531,16 +557,24 @@
       "type": "Android Studio, Team Work, College Project",
       "images": [
         {
-          "link": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80",
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/NewsFeed/image1.png",
+          "title": "News Feed Categories"
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/NewsFeed/image2.png",
           "title": "News Feed Homepage"
         },
         {
-          "link": "https://images.unsplash.com/photo-1529636468163-df9b10a5a0f3?auto=format&fit=crop&w=1200&q=80",
-          "title": "News Categories"
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/NewsFeed/image3.png",
+          "title": "News Feed Homepage"
         },
         {
-          "link": "https://images.unsplash.com/photo-1505144808419-1957a94ca61c?auto=format&fit=crop&w=1200&q=80",
-          "title": "Integrated Webview"
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/NewsFeed/image4.png",
+          "title": "News Feed Sharable Screen"
+        },
+        {
+          "link": "https://raw.githubusercontent.com/dlnicoz/Personal-React-Web/refs/heads/master/src/assets/NewsFeed/image5.png",
+          "title": "Integrated Web View"
         }
       ],
       "details": {
