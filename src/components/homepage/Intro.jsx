@@ -36,23 +36,30 @@ const SlideText = ({ children, delay = 0 }) => {
   );
 };
 
-const ContactItem = ({ value, label, icon: Icon }) => {
+const ContactItem = ({ value, label, icon: Icon, type }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
 
-  const handleCopy = () => {
+  const handleCopy = (e) => {
+    e.preventDefault(); // Prevent the default anchor behavior when clicking copy
     navigator.clipboard.writeText(value);
     setIsCopied(true);
     setTimeout(() => setIsCopied(false), 2000);
   };
 
+  const getHref = () => {
+    if (type === 'phone') return `tel:${value}`;
+    if (type === 'email') return `mailto:${value}`;
+    return '#';
+  };
+
   return (
-    <div className="relative inline-block ">
-      <motion.div
+    <div className="relative inline-block">
+      <motion.a
+        href={getHref()}
         className="flex items-center gap-3 cursor-pointer group text-xl"
         onHoverStart={() => setIsHovered(true)}
         onHoverEnd={() => setIsHovered(false)}
-        onClick={handleCopy}
         whileHover={{ scale: 1.02 }}
         transition={{ type: "spring", stiffness: 400, damping: 20 }}
       >
@@ -60,12 +67,14 @@ const ContactItem = ({ value, label, icon: Icon }) => {
         <span className="group-hover:text-[#FD1056] transition-colors duration-200">
           {value}
         </span>
-        {isCopied ? (
-          <CheckCheck size={20} className="text-green-500" />
-        ) : (
-          <Copy size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-        )}
-      </motion.div>
+        <div onClick={handleCopy}>
+          {isCopied ? (
+            <CheckCheck size={20} className="text-green-500" />
+          ) : (
+            <Copy size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+          )}
+        </div>
+      </motion.a>
       
       <AnimatePresence>
         {isHovered && !isCopied && (
@@ -92,7 +101,7 @@ const ContactItem = ({ value, label, icon: Icon }) => {
             }}
             className="absolute left-0 top-full bg-black text-white text-xs py-1.5 px-3 rounded whitespace-nowrap z-10"
           >
-            Click to copy {label}
+            Click to {type === 'phone' ? 'call' : 'send email'} or copy {label}
             <div className="absolute -top-1 left-6 w-2 h-2 bg-black transform rotate-45" />
           </motion.div>
         )}
@@ -130,7 +139,7 @@ const Intro = (props) => {
               </h1>
               <h1 className="mb-2">
                 <SlideText delay={0.3}>
-                  <span style={{ color: "#FD1056" }}>{lastNameFirstTwo}</span>
+                  <span>{lastNameFirstTwo}</span>
                   {lastNameRest},
                 </SlideText>
               </h1>
@@ -148,8 +157,18 @@ const Intro = (props) => {
               style={{ fontFamily: "iori" }}
             >
               <div className="flex flex-col gap-2">
-                <ContactItem value={contact.mobile} label="phone number" icon={Phone} />
-                <ContactItem value={contact.email} label="email address" icon={Mail} />
+                <ContactItem 
+                  value={contact.mobile} 
+                  label="phone number" 
+                  icon={Phone} 
+                  type="phone"
+                />
+                <ContactItem 
+                  value={contact.email} 
+                  label="email address" 
+                  icon={Mail} 
+                  type="email"
+                />
                 <div className="flex gap-2 mt-4">
                   <motion.a
                     className="link"
