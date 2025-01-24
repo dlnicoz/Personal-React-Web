@@ -71,7 +71,7 @@ const ContactItem = ({ value, label, icon: Icon, type }) => {
           {isCopied ? (
             <CheckCheck size={20} className="text-green-500" />
           ) : (
-            <Copy size={20} className="opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+            <Copy size={20} className="text-[#2284EC] opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
           )}
         </div>
       </motion.a>
