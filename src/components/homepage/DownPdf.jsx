@@ -16,7 +16,7 @@ const DownPdf = () => {
   return (
     <div className="resume inline">
       <motion.a
-        className="text-[#fd1056] hover:text-black flex items-center gap-2 relative"
+        className="text-[#2284EC] hover:text-black flex items-center gap-2 relative"
         href={resume}
         download="resume.pdf"
         target="_blank"
@@ -38,7 +38,7 @@ const DownPdf = () => {
           Resume
           <Download 
             size={30} 
-            className="text-[#fd1056] transition-colors duration-200"
+            className="text-[#2284EC] transition-colors duration-200"
           />
         </div>
 
