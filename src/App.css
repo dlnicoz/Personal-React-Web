@@ -83,7 +83,8 @@ body {
 
 .aback {
   font-size: 2rem;
-  color: #2284EC;
+  color: #fd1056;
+
   line-height: 1;
   text-decoration: none;
 }
@@ -95,7 +96,8 @@ body {
 
 a {
   font-size: 3rem;
-  color: #2284EC;
+  color: #fd1056;
+
   line-height: 1;
   text-decoration: none;
 }

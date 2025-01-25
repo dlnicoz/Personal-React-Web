@@ -131,7 +131,7 @@ const Intro = (props) => {
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-0 sm:gap-2">
               <h1 className="mb-2 flex items-center">
                 <SlideText delay={0.1}>I'm{" "}</SlideText>{" "}
-                <span style={{ color: "#2284EC" }} className="ml-2">
+                <span style={{ color: "#FD1056" }} className="ml-2">
                   <SlideText delay={0.2}>
                     {firstName}
                   </SlideText>
